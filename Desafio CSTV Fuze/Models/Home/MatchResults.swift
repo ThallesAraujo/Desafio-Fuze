@@ -75,6 +75,9 @@ struct Game : Codable{
 enum Status: String, Codable {
     case finished = "finished"
     case notStarted = "not_started"
+    case canceled = "canceled"
+    case postponed = "postponed"
+    case running = "running"
 }
 
 // MARK: - GameWinner

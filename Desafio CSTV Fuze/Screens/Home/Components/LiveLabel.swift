@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct LiveLabel: View {
+    
+    var text: String
+    
     var body: some View {
-        Text("Agora").padding(8).background(.red).cornerRadius(10, corners: [.topRight, .bottomLeft])
+        Text(text).padding(8).background(.red).cornerRadius(10, corners: [.topRight, .bottomLeft])
     }
 }
 
-#Preview {
-    LiveLabel()
-}
