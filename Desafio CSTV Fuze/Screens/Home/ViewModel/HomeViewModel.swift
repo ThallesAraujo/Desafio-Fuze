@@ -16,11 +16,11 @@ class HomeViewModel: ViewModel, ObservableObject{
         
         do{
             try self.perform([MatchResult].self, request: APIURLs.getMatches.request()) { matches in
-                let allMatches = matches.filter({$0.opponents?.count ?? 0 > 1})
-                var runningMatches = allMatches.filter({$0.status == .running})
-                var notRunningMatches = allMatches.filter({$0.status != .running})
-                runningMatches.append(contentsOf: notRunningMatches)
-                self.matches = runningMatches
+                var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1})
+                allMatches.sort { left, right in
+                    return left.status == .running
+                }
+                self.matches = allMatches
             }
         }catch{
             errorProcedure()
@@ -29,3 +29,5 @@ class HomeViewModel: ViewModel, ObservableObject{
     }
     
 }
+
+
