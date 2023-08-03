@@ -25,9 +25,7 @@ class ViewModel{
         isLoading = true
         
         guard NetworkTester().isConnected() else {
-            self.isLoading = false
-            self.showError = true
-            self.isNetworkError = true
+            errorProcedure(isNetworkError: true)
             return
         }
         
@@ -40,6 +38,7 @@ class ViewModel{
                 successCompletion(response)
             }, onError: { [weak self] error in
                 if let unitTesting = self?.isRunningUnitTests(), !unitTesting {
+                    self?.errorString = error.localizedDescription
                     self?.errorProcedure()
                 }
                 print("Error:\(error.localizedDescription)")
@@ -47,10 +46,10 @@ class ViewModel{
         
     }
     
-    internal func errorProcedure(){
+    internal func errorProcedure(isNetworkError: Bool = false){
         self.showError = true
         self.isLoading = false
-        self.isNetworkError = false
+        self.isNetworkError = isNetworkError
         if let completion = self.completion {completion()}
     }
     

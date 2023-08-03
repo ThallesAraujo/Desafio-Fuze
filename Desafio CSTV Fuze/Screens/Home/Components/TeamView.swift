@@ -18,7 +18,7 @@ struct TeamView: View {
                 
                 if let imageString = opponent.imageURL, let imageURL = URL(string: imageString){
                     AsyncImage(url: imageURL){image in
-                        image.resizable().frame(maxWidth: 60, maxHeight: 60)
+                        image.resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 60, maxHeight: 60)
                     } placeholder: {
                         ProgressView()
                     }
