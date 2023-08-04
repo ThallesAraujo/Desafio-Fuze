@@ -29,9 +29,12 @@ class ViewModel{
             return
         }
         
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        
         URLSession.shared.rx.response(request: request)
             .map { response, data in
-                try JSONDecoder().decode(type.self, from: data)
+                try decoder.decode(type.self, from: data)
             }.observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] response in
                 self?.isLoading = false

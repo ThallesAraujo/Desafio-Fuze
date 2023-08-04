@@ -56,7 +56,7 @@ struct Home: View {
                                             
                                             
                                         }.background(Color.init("background_card", bundle: .main)).cornerRadius(16)
-                                        LiveLabel(text: match.status?.rawValue ?? "")
+                                        TimeLabel(match: match)
                                     }
                                 }
                             }

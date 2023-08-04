@@ -17,7 +17,7 @@ struct MatchResult : Codable {
     var name: String?
     var numberOfGames: Int?
     var opponents: [Opponent]?
-    var scheduledAt: String?
+    var scheduledAt: Date?
     var serie: Serie?
     var serieID: Int?
     var slug: String?
@@ -49,9 +49,9 @@ struct MatchResult : Codable {
 
 // MARK: - Game
 struct Game : Codable{
-    var beginAt: String?
+    var beginAt: Date?
     var complete, detailedStats: Bool?
-    var endAt: String?
+    var endAt: Date?
     var finished, forfeit: Bool?
     var id: Int?
     var length: Int?
