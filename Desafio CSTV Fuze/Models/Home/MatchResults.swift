@@ -7,6 +7,8 @@
 
 import Foundation
 
+typealias MatchResults = [MatchResult]
+
 // MARK: - MatchResult
 struct MatchResult : Codable {
     var games: [Game]?

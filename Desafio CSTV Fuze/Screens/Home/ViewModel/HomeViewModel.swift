@@ -10,13 +10,18 @@ import SwiftUI
 
 class HomeViewModel: ViewModel, ObservableObject{
     
-    @Published var matches: [MatchResult]?
+    @Published var matches: MatchResults?
     
     func getMatches(){
         
         do{
-            try self.perform([MatchResult].self, request: APIURLs.getMatches.request()) { matches in
-                var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1})
+            try self.perform(MatchResults.self, request: APIURLs.getMatches.request()) { matches in
+                var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1}).filter({match in
+                    if let schedule = match.scheduledAt, let days = Calendar.current.dateComponents([.day], from: .now, to: schedule).day{
+                        return days >= 0
+                    }
+                    return true
+                })
                 allMatches.sort { left, right in
                     left.scheduledAt ?? Date() < right.scheduledAt ?? Date()
                 }

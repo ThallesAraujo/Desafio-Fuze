@@ -13,5 +13,15 @@ extension UINavigationController {
     
     open override func viewWillLayoutSubviews () {
         navigationBar.topItem?.backButtonDisplayMode = .minimal
+        
+        
+        let appearance = UINavigationBarAppearance()
+        appearance.largeTitleTextAttributes = AppNavigationBarTitleAttributes().largeTitleTextAttributes
+        appearance.titleTextAttributes = AppNavigationBarTitleAttributes().standardTitleTextAttributes
+        
+        navigationBar.standardAppearance = appearance
+        navigationBar.scrollEdgeAppearance = appearance
+        navigationBar.compactAppearance = appearance
+        
     }
 }

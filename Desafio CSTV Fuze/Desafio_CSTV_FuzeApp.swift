@@ -11,7 +11,7 @@ import SwiftUI
 struct Desafio_CSTV_FuzeApp: App {
     var body: some Scene {
         WindowGroup {
-            Home().background(Color.init("background_default", bundle: .main))
+            Home()
         }
     }
 }

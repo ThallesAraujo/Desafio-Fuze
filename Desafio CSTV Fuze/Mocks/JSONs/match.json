@@ -1,0 +1,182 @@
+{
+    "begin_at": "2023-08-07T10:30:00Z",
+    "detailed_stats": false,
+    "draw": false,
+    "end_at": null,
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": false,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 110206,
+        "length": null,
+        "match_id": 820390,
+        "position": 1,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": false,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 110207,
+        "length": null,
+        "match_id": 820390,
+        "position": 2,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": false,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 110208,
+        "length": null,
+        "match_id": 820390,
+        "position": 3,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 820390,
+    "league": {
+      "id": 4854,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4854/european_pro_league_csgo_allmode-png",
+      "modified_at": "2022-08-12T15:33:12Z",
+      "name": "European Pro League",
+      "slug": "cs-go-european-pro-league",
+      "url": null
+    },
+    "league_id": 4854,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2023-08-04T08:18:03Z",
+    "name": "Opening match: Let us cook vs ENCE Academy",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 132686,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132686/203px_let_us_cook_allmode.png",
+          "location": "",
+          "modified_at": "2023-08-04T08:20:24Z",
+          "name": "Let us cook",
+          "slug": "let-us-cook"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 131389,
+          "image_url": "https://cdn.pandascore.co/images/team/image/131389/600px_ence_academy_2022_full_lightmode.png",
+          "location": "FI",
+          "modified_at": "2023-08-04T08:20:22Z",
+          "name": "ENCE Academy",
+          "slug": "ence-academy"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2023-08-07T10:30:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 132686
+      },
+      {
+        "score": 0,
+        "team_id": 131389
+      }
+    ],
+    "scheduled_at": "2023-08-07T10:30:00Z",
+    "serie": {
+      "begin_at": "2023-08-04T08:00:00Z",
+      "end_at": null,
+      "full_name": "Division 2 season 10 2023",
+      "id": 6136,
+      "league_id": 4854,
+      "modified_at": "2023-08-04T08:02:44Z",
+      "name": "Division 2",
+      "season": "10",
+      "slug": "cs-go-european-pro-league-division-2-10-2023",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2023
+    },
+    "serie_id": 6136,
+    "slug": "let-us-cook-vs-ence-academy-2023-08-07",
+    "status": "not_started",
+    "streams_list": [
+      {
+        "embed_url": "https://player.twitch.tv/?channel=eplcs_ru",
+        "language": "ru",
+        "main": false,
+        "official": false,
+        "raw_url": "https://www.twitch.tv/eplcs_ru"
+      },
+      {
+        "embed_url": "https://player.twitch.tv/?channel=eplcs_en",
+        "language": "en",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.twitch.tv/eplcs_en"
+      }
+    ],
+    "tournament": {
+      "begin_at": "2023-08-07T08:00:00Z",
+      "detailed_stats": false,
+      "end_at": "2023-08-12T14:00:00Z",
+      "has_bracket": true,
+      "id": 11062,
+      "league_id": 4854,
+      "live_supported": false,
+      "modified_at": "2023-08-04T08:20:24Z",
+      "name": "Group D",
+      "prizepool": null,
+      "serie_id": 6136,
+      "slug": "cs-go-european-pro-league-division-2-10-2023-group-d",
+      "tier": "d",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 11062,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": null,
+    "winner_id": null,
+    "winner_type": "Team"
+  }

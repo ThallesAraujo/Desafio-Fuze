@@ -12,7 +12,7 @@ struct TimeLabel: View {
     var match: MatchResult
     
     var body: some View {
-        Text(getLabel() ?? "").padding(8).background(getBackground()).cornerRadius(10, corners: [.topRight, .bottomLeft])
+        Text(getLabel()).font(.custom("Roboto-Bold", size: 8)).padding(8).background(getBackground()).cornerRadius(10, corners: [.topRight, .bottomLeft])
     }
     
     
@@ -20,11 +20,13 @@ struct TimeLabel: View {
         return match.status == .running ? .red : Color("time_label_default_background")
     }
     
-    private func getLabel() -> String?{
-        
-        return match.status == .running ? "Agora" :
-        match.scheduledAt?.ISO8601Format()
-        
+    private func getLabel() -> String{
+        return match.status == .running ? "AGORA" :
+        scheduledDateFormatted()
+    }
+    
+    private func scheduledDateFormatted() -> String{
+        return DateFormat().formatDate(match.scheduledAt)
     }
 }
 

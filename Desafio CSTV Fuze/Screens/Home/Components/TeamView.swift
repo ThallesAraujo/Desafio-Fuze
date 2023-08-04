@@ -24,7 +24,7 @@ struct TeamView: View {
                     }
                 }
                 
-                Text(opponent.name ?? "")
+                Text(opponent.name ?? "").font(.custom("Roboto-Regular",size: 10))
             }
         }
     }
