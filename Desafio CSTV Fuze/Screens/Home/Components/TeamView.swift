@@ -18,10 +18,12 @@ struct TeamView: View {
                 
                 if let imageString = opponent.imageURL, let imageURL = URL(string: imageString){
                     AsyncImage(url: imageURL){image in
-                        image.resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 60, maxHeight: 60)
+                        image.resizable().aspectRatio(contentMode: .fit).frame(width: 60, height: 60)
                     } placeholder: {
                         ProgressView()
                     }
+                }else{
+                    Image(systemName: "checkerboard.shield").font(.system(size: 60))
                 }
                 
                 Text(opponent.name ?? "").font(.custom("Roboto-Regular",size: 10))

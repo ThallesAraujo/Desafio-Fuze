@@ -24,13 +24,12 @@ struct Details: View {
                 VStack(spacing: 16){
                     OpponentsView(match: match).padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
                     Text(DateFormat().formatDate(match.scheduledAt)).font(.custom("Roboto-Bold", size: 12))
-                    
-                    HStack{
+                    Spacer().frame(height: 16)
+                    HStack(spacing: 16){
                         if let firstTeamPlayers = viewModel.firstTeam?.players, firstTeamPlayers.count > 0{
                             VStack(alignment: .trailing, spacing: 16){
                                 ForEach(firstTeamPlayers, id: \.id){player in
                                     ZStack{
-                                        
                                         
                                         VStack{
                                             HStack(alignment: .bottom){
@@ -43,26 +42,28 @@ struct Details: View {
                                                 
                                                 ZStack{
                                                     RoundedRectangle(cornerRadius: 10).fill(.gray).frame(width: 50, height: 50)
-                                                    if let imageURL = URL(string: player.imageURL ?? ""){
+                                                    if let playerImage = player.imageURL, let imageURL = URL(string: playerImage){
                                                         AsyncImage(url: imageURL){image in
                                                             image.resizable().aspectRatio(contentMode: .fill).frame(width: 50, height: 50).clipShape(RoundedRectangle(cornerRadius: 10))
                                                         }placeholder: {
                                                             ProgressView()
                                                         }
+                                                    }else{
+                                                        Image(systemName: "person.fill").font(.system(size: 50))
                                                     }
                                                     
                                                 }
                                                 
-                                            }.offset(x: -4, y: -8)
-                                        }.padding(EdgeInsets(top: 4, leading: 0, bottom: 3, trailing: 8)).frame(maxWidth: 200).background(RoundedRectangle(cornerRadius: 10).fill(Color("background_card")))
+                                            }.offset(x: -8, y: -12)
+                                        }.padding(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 8)).background(Color("background_card").cornerRadius(12, corners: [.topRight, .bottomRight]).frame(minHeight: 54))
                                         
                                         
-                                    }.padding(8)
+                                    }
                                 }
                                 Spacer()
-                            }
+                            }.padding(0)
                         }else{
-                            Text("Integrantes do Time \(viewModel.firstTeam?.name ?? "1") não disponíveis na API").font(.custom("Roboto-Regular", size: 12)).foregroundStyle(Color("secondary_text"))
+                            Text("Integrantes do Time \(viewModel.firstTeam?.name ?? "1") não disponíveis na API").font(.custom("Roboto-Regular", size: 12)).foregroundStyle(Color("secondary_text")).multilineTextAlignment(.trailing).padding(16)
                         }
                         
                         if let secondTeamPlayers = viewModel.secondTeam?.players, secondTeamPlayers.count > 0{
@@ -77,12 +78,14 @@ struct Details: View {
                                                 
                                                 ZStack{
                                                     RoundedRectangle(cornerRadius: 10).fill(.gray).frame(width: 50, height: 50)
-                                                    if let imageURL = URL(string: player.imageURL ?? ""){
+                                                    if let playerImage = player.imageURL, let imageURL = URL(string:  playerImage){
                                                         AsyncImage(url: imageURL){image in
                                                             image.resizable().aspectRatio(contentMode: .fill).frame(width: 50, height: 50).clipShape(RoundedRectangle(cornerRadius: 10))
                                                         }placeholder: {
                                                             ProgressView()
                                                         }
+                                                    }else{
+                                                        Image(systemName: "person.fill").font(.system(size: 50))
                                                     }
                                                     
                                                 }
@@ -95,16 +98,16 @@ struct Details: View {
                                                 
                                                 Spacer()
                                                 
-                                            }.offset(x: 11, y: -8)
-                                        }.padding(EdgeInsets(top: 4, leading: 0, bottom: 3, trailing: 8)).frame(maxWidth: 200).background(RoundedRectangle(cornerRadius: 10).fill(Color("background_card")))
+                                            }.offset(x: 16, y: -12)
+                                        }.padding(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 8)).background(Color("background_card").cornerRadius(12, corners: [.topLeft, .bottomLeft]).frame(minHeight: 54))
                                         
                                         
-                                    }.padding(8)
+                                    }
                                 }
                                 Spacer()
-                            }
+                            }.edgesIgnoringSafeArea([.trailing])
                         }else{
-                            Text("Integrantes do Time \(viewModel.secondTeam?.name ?? "2") não disponíveis na API").font(.custom("Roboto-Regular", size: 12)).foregroundStyle(Color("secondary_text"))
+                            Text("Integrantes do Time \(viewModel.secondTeam?.name ?? "2") não disponíveis na API").font(.custom("Roboto-Regular", size: 12)).foregroundStyle(Color("secondary_text")).multilineTextAlignment(.leading).padding(16)
                         }
                         
                     }
