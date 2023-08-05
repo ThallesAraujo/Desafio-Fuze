@@ -10,33 +10,44 @@ import Foundation
 
 typealias TeamResults = [TeamResult]
 
-// MARK: - TeamResult
 struct TeamResult: Codable {
+    var acronym: String?
+    var currentVideogame: CurrentVideogame?
     var id: Int?
     var imageURL: String?
     var location: String?
+    var modifiedAt: Date?
     var name: String?
     var players: [Player]?
+    var slug: String?
 
     enum CodingKeys: String, CodingKey {
+        case acronym
+        case currentVideogame = "current_videogame"
         case id
         case imageURL = "image_url"
         case location
-        case name, players
+        case modifiedAt = "modified_at"
+        case name, players, slug
     }
 }
 
+// MARK: - CurrentVideogame
+struct CurrentVideogame: Codable {
+    var id: Int?
+    var name, slug: String?
+}
 
 // MARK: - Player
 struct Player: Codable {
     var age: Int?
-    var birthday, firstName: String?
+    var birthday: String?
+    var firstName: String?
     var id: Int?
     var imageURL: String?
     var lastName: String?
     var modifiedAt: Date?
-    var name: String?
-    var nationality: String?
+    var name, nationality: String?
     var role: String?
     var slug: String?
 
@@ -50,5 +61,3 @@ struct Player: Codable {
         case name, nationality, role, slug
     }
 }
-
-

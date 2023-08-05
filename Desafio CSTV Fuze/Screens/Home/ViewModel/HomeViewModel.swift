@@ -35,6 +35,7 @@ class HomeViewModel: ViewModel, ObservableObject{
         }catch{
             errorProcedure()
         }
+        
     }
     
     

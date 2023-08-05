@@ -13,6 +13,9 @@ struct Home: View {
     
     @StateObject var viewModel = HomeViewModel()
     
+    @State var goToDetails: Bool = false
+    @State var selectedMatch: MatchResult?
+    
     var body: some View {
         
         NavigationView{
@@ -44,15 +47,23 @@ struct Home: View {
                                             Text(match.serie?.name ?? "").font(.custom("Roboto-Regular",size: 8))
                                             Spacer()
                                             
+                                            
                                         }.padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
                                     }
                                     
                                     
                                 }.background(Color.init("background_card", bundle: .main)).cornerRadius(16)
                                 TimeLabel(match: match)
+                            }.onTapGesture {
+                                self.navigateToDetails(match: match)
                             }
                         }
                     }
+                    
+                    if let matchUnwrapped = selectedMatch{
+                        NavigationLink("", destination: Details(match: matchUnwrapped), isActive: $goToDetails)
+                    }
+                    
                 }.padding(EdgeInsets(top: 24, leading: 24, bottom: 0, trailing: 24))
             }.refreshable(action: {
                 viewModel.getMatches()
@@ -61,6 +72,12 @@ struct Home: View {
             viewModel.getMatches()
         })
         
+    }
+    
+    
+    func navigateToDetails(match: MatchResult){
+        self.selectedMatch = match
+        self.goToDetails = true
     }
 }
 

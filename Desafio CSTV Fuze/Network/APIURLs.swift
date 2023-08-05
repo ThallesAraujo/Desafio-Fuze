@@ -10,8 +10,8 @@ import Foundation
 let baseURL = "https://api.pandascore.co/csgo"
 
 let headers = [
-  "accept": "application/json",
-  "Authorization": "Bearer \(pandaScoreToken)"
+    "accept": "application/json",
+    "Authorization": "Bearer \(pandaScoreToken)"
 ]
 
 enum APIURLs{
@@ -24,33 +24,20 @@ enum APIURLs{
         case .getMatches:
             return createRequest(withURL: "\(baseURL)/matches")
         case let .getTeam(id):
-            return createRequest(withURL: "\(baseURL)/teams?id=\(id)")
+            return createRequest(withURL: "\(baseURL)/teams?filter[id]=\(id)")
         }
     }
     
     private func createRequest(withURL url: String) -> URLRequest{
         
-        var request = URLRequest(url: URL.init(string: url)!,
-                                 cachePolicy: .useProtocolCachePolicy,
-                                 timeoutInterval: 10.0)
+        var request = NSMutableURLRequest(url: URL(string: url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)!
+                                          ,cachePolicy: .useProtocolCachePolicy,
+                                          timeoutInterval: 10.0)
+        
+
         request.httpMethod = "GET"
         request.allHTTPHeaderFields = headers
-        return request
-    }
-    
-    private func createRequest(withURL url: String, queryParams: [URLQueryItem]) -> URLRequest{
-        
-        var url = URLComponents(string: url)!
-        
-        url.queryItems = queryParams
-        
-        
-        var request = URLRequest(url: url.url!,
-                                 cachePolicy: .useProtocolCachePolicy,
-                                 timeoutInterval: 10.0)
-        request.httpMethod = "GET"
-        request.allHTTPHeaderFields = headers
-        return request
+        return request as URLRequest
     }
     
 }

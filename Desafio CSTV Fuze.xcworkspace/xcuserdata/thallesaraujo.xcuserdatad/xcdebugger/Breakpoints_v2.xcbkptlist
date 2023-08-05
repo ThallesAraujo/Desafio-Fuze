@@ -46,8 +46,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Home/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -289,6 +289,134 @@
             endingLineNumber = "39"
             landmarkName = "getTeam(id:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67BB0B41-1DE9-4BB8-93EF-C202F9162827"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio CSTV Fuze/Screens/Home/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "navigateToDetails(match:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6385C9AC-D6CC-462A-AFEA-378ACB717465"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getTeams(match:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6385C9AC-D6CC-462A-AFEA-378ACB717465 - 8e9b6d3adfef05af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_CSTV_Fuze.DetailsViewModel.getTeams(match: Swift.Optional&lt;Desafio_CSTV_Fuze.MatchResult&gt;) -&gt; ()"
+                  moduleName = "Desafio CSTV Fuze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thallesaraujo/Developer/Desafio%20CSTV%20Fuze/Desafio%20CSTV%20Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "6385C9AC-D6CC-462A-AFEA-378ACB717465 - 384664911b86b401"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Desafio_CSTV_Fuze.TeamResult&gt;&gt;) -&gt; () in Desafio_CSTV_Fuze.DetailsViewModel.getTeams(match: Swift.Optional&lt;Desafio_CSTV_Fuze.MatchResult&gt;) -&gt; ()"
+                  moduleName = "Desafio CSTV Fuze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thallesaraujo/Developer/Desafio%20CSTV%20Fuze/Desafio%20CSTV%20Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "629C8EC1-53AF-4979-BBB8-4B512AE8B6C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getTeams(match:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2427F95C-80D8-4EFC-9D63-000E23355693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getTeams(match:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2427F95C-80D8-4EFC-9D63-000E23355693 - 384664911b86b401"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Desafio_CSTV_Fuze.TeamResult&gt;&gt;) -&gt; () in Desafio_CSTV_Fuze.DetailsViewModel.getTeams(match: Swift.Optional&lt;Desafio_CSTV_Fuze.MatchResult&gt;) -&gt; ()"
+                  moduleName = "Desafio CSTV Fuze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thallesaraujo/Developer/Desafio%20CSTV%20Fuze/Desafio%20CSTV%20Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "2427F95C-80D8-4EFC-9D63-000E23355693 - 826fcd12a40cd6a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Desafio_CSTV_Fuze.TeamResult) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;Swift.Array&lt;Desafio_CSTV_Fuze.TeamResult&gt;&gt;) -&gt; () in Desafio_CSTV_Fuze.DetailsViewModel.getTeams(match: Swift.Optional&lt;Desafio_CSTV_Fuze.MatchResult&gt;) -&gt; ()"
+                  moduleName = "Desafio CSTV Fuze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thallesaraujo/Developer/Desafio%20CSTV%20Fuze/Desafio%20CSTV%20Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -10,22 +10,22 @@ import SwiftUI
 
 class DetailsViewModel: ViewModel, ObservableObject{
     
-    @Published var firstTeam: TeamResults?
-    @Published var secondTeam: TeamResults?
+    @Published var firstTeam: TeamResult?
+    @Published var secondTeam: TeamResult?
     
     func getTeams(match: MatchResult?){
         
         if let matchUnrapped = match{
             
             if let firstOpponentId = match?.opponents?[0].opponent?.id{
-                getTeam(id: firstOpponentId) { team in
-                    self.firstTeam = team
+                getTeam(id: firstOpponentId) { teams in
+                    self.firstTeam = teams?.first(where: {$0.id == firstOpponentId})
                 }
             }
             
             if let secondOpponentId = match?.opponents?[1].opponent?.id{
-                getTeam(id: secondOpponentId) { team in
-                    self.secondTeam = team
+                getTeam(id: secondOpponentId) { teams in
+                    self.secondTeam = teams?.first(where: {$0.id == secondOpponentId})
                 }
             }
         }
