@@ -19,7 +19,7 @@ class HomeViewModel: ViewModel, ObservableObject{
                 if page == 1{
                     self.matches = self.sortMatches(matches)
                 }else{
-                    self.matches?.append(contentsOf: self.removeMatchesWithoutOpponents(matches))
+                    self.matches?.append(contentsOf: self.removeOldAndWithoutOpponentsMatches(matches))
                 }
             }
         }catch{
@@ -30,7 +30,7 @@ class HomeViewModel: ViewModel, ObservableObject{
     
     private func sortMatches(_ matches: MatchResults) -> MatchResults{
         
-        var allMatches = removeMatchesWithoutOpponents(matches)
+        var allMatches = removeOldAndWithoutOpponentsMatches(matches)
         
         allMatches.sort { left, right in
             left.scheduledAt ?? Date() < right.scheduledAt ?? Date()
@@ -43,7 +43,7 @@ class HomeViewModel: ViewModel, ObservableObject{
         
     }
     
-    private func removeMatchesWithoutOpponents(_ matches: MatchResults) -> MatchResults{
+    private func removeOldAndWithoutOpponentsMatches(_ matches: MatchResults) -> MatchResults{
         var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1}).filter({match in
             if let schedule = match.scheduledAt, let days = Calendar.current.dateComponents([.day], from: .now, to: schedule).day{
                 return days >= 0
