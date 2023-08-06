@@ -14,8 +14,10 @@ struct PlayerName: View {
     
     var body: some View {
         VStack(alignment: alignment){
-            Text(player.name ?? emptyString).font(AppFont.bold(14).font())
-            Text(getPlayerName()).font(AppFont.regular(12).font()).foregroundStyle(AppColors.foreground.secondary.color)
+            Text(player.name ?? emptyString).font(AppFont.bold(14).font()).minimumScaleFactor(0.8)
+                .lineLimit(1)
+            Text(getPlayerName()).font(AppFont.regular(12).font()).foregroundStyle(AppColors.foreground.secondary.color).minimumScaleFactor(0.5)
+                .lineLimit(1)
         }
     }
     

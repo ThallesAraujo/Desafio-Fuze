@@ -28,7 +28,7 @@ struct TeamMember: View {
                         Spacer()
                     }
                     
-                }.offset(x: getOffsetX(), y: getOffsetY())
+                }.padding(getEdgeInsets()).offset(x: getOffsetX(), y: getOffsetY())
                 
             }.padding(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 8)).background(AppColors.background.card.color.cornerRadius(12, corners: getCorners()).frame(minHeight: 54))
             
@@ -51,6 +51,12 @@ struct TeamMember: View {
     
     private func getOffsetY() -> CGFloat{
         return -12
+    }
+    
+    private func getEdgeInsets() -> EdgeInsets{
+        return alignment == .left ?
+        EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0) :
+        EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 16)
     }
 }
 
