@@ -19,7 +19,11 @@ class HomeViewModel: ViewModel, ObservableObject{
                 if page == 1{
                     self.matches = self.sortMatches(matches)
                 }else{
-                    self.matches?.append(contentsOf: self.removeOldAndWithoutOpponentsMatches(matches))
+                    
+                    var allMatches = self.matches
+                    allMatches?.append(contentsOf: self.removeOldAndWithoutOpponentsMatches(matches))
+                    allMatches = self.sortMatches(allMatches!)
+                    self.matches = allMatches
                 }
             }
         }catch{
