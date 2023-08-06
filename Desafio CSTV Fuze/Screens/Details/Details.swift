@@ -13,7 +13,7 @@ struct Details: View {
     @StateObject var viewModel = DetailsViewModel()
     
     var body: some View {
-        NavigationView{
+       
             
             ScrollView{
                 
@@ -61,9 +61,7 @@ struct Details: View {
                 
             }.onAppear(perform: {
                 viewModel.getTeams(match: match)
-            })
-            
-        }.navigationTitle(getNavigationTitle()).navigationBarTitleDisplayMode(.inline)
+            }).navigationTitle(getNavigationTitle()).navigationBarTitleDisplayMode(.inline)
     }
     
     func getNavigationTitle() -> String{
