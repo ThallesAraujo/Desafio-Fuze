@@ -39,12 +39,10 @@ struct Home: View {
                             }
                         }
                         
-                        if let matchUnwrapped = selectedMatch{
-                            NavigationLink(emptyString, destination: Details(match: matchUnwrapped), isActive: $goToDetails)
-                        }
-                        
-                        
                     }.padding(EdgeInsets(top: 24, leading: 24, bottom: 0, trailing: 24))
+                }
+                if let matchUnwrapped = selectedMatch{
+                    NavigationLink(emptyString, destination: Details(match: matchUnwrapped), isActive: $goToDetails)
                 }
             }.refreshable(action: {
                 viewModel.getMatches()

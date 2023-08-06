@@ -17,7 +17,7 @@ class MatchesMockManager{
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
-                return try? decoder.decode(MatchResult.self, from: data)
+                return try? decoder.decode(MatchResults.self, from: data).first
             } catch {
                 print(error.localizedDescription)
                 return nil
