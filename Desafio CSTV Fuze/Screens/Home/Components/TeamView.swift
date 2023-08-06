@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CachedAsyncImage
 
 struct TeamView: View {
     
@@ -17,7 +18,7 @@ struct TeamView: View {
             if let opponent = team?.opponent{
                 
                 if let imageString = opponent.imageURL, let imageURL = URL(string: imageString){
-                    AsyncImage(url: imageURL){image in
+                    CachedAsyncImage(url: imageURL){image in
                         image.resizable().aspectRatio(contentMode: .fit).frame(width: 60, height: 60)
                     } placeholder: {
                         ProgressView()

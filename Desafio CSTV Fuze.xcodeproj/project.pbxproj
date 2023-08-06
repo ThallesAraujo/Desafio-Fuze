@@ -27,6 +27,7 @@
 		6F4FD15C2A7D76160011D98C /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FD15B2A7D76160011D98C /* Details.swift */; };
 		6F4FD1602A7D77200011D98C /* match.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FD15F2A7D77200011D98C /* match.json */; };
 		6F4FD1632A7D77510011D98C /* MatchesMockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FD1622A7D77510011D98C /* MatchesMockManager.swift */; };
+		6F57EC312A80476B0086065F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F57EC302A80476B0086065F /* CachedAsyncImage */; };
 		6F9D47FA2A7BFCFC0047DB2E /* MatchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47F92A7BFCFC0047DB2E /* MatchResults.swift */; };
 		6F9D47FD2A7BFD4E0047DB2E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FC2A7BFD4E0047DB2E /* HomeViewModel.swift */; };
 		6F9D48002A7BFDDE0047DB2E /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FF2A7BFDDE0047DB2E /* Auth.swift */; };
@@ -96,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				509526C588EA0243D192A4D9 /* Pods_Desafio_CSTV_Fuze.framework in Frameworks */,
+				6F57EC312A80476B0086065F /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +377,9 @@
 			dependencies = (
 			);
 			name = "Desafio CSTV Fuze";
+			packageProductDependencies = (
+				6F57EC302A80476B0086065F /* CachedAsyncImage */,
+			);
 			productName = "Desafio CSTV Fuze";
 			productReference = 6F13637B2A7B402A00DD6717 /* Desafio CSTV Fuze.app */;
 			productType = "com.apple.product-type.application";
@@ -403,6 +408,9 @@
 				Base,
 			);
 			mainGroup = 6F1363722A7B402A00DD6717;
+			packageReferences = (
+				6F57EC2F2A80476B0086065F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 6F13637C2A7B402A00DD6717 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -716,6 +724,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F57EC2F2A80476B0086065F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F57EC302A80476B0086065F /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F57EC2F2A80476B0086065F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F1363732A7B402A00DD6717 /* Project object */;
 }
