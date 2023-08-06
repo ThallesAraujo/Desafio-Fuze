@@ -29,8 +29,6 @@ class HomeViewModel: ViewModel, ObservableObject{
                     return left.status == .running
                 }
                 self.matches = allMatches
-                print("Matches:")
-                dump(matches)
             }
         }catch{
             errorProcedure()

@@ -38,6 +38,7 @@ class ViewModel{
             }.observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] response in
                 self?.isLoading = false
+                self?.showError = false
                 successCompletion(response)
             }, onError: { [weak self] error in
                 if let unitTesting = self?.isRunningUnitTests(), !unitTesting {

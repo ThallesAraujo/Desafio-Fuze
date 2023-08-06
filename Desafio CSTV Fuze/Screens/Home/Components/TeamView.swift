@@ -23,10 +23,10 @@ struct TeamView: View {
                         ProgressView()
                     }
                 }else{
-                    Image(systemName: "checkerboard.shield").font(.system(size: 60))
+                    IconConstants.team.icon.font(.system(size: 60))
                 }
                 
-                Text(opponent.name ?? "").font(.custom("Roboto-Regular",size: 10))
+                Text(opponent.name ?? emptyString).font(AppFont.regular(10).font())
             }
         }
     }

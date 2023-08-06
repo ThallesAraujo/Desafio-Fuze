@@ -15,7 +15,7 @@ struct OpponentsView: View {
         HStack{
             TeamView(team: match.opponents?[0])
             
-            Text("vs").font(.custom("Roboto-Regular",size: 12)).foregroundStyle(Color.init("secondary_text", bundle: .main))
+            Text(OpponentsViewTexts.versus.rawValue).font(AppFont.regular(12).font()).foregroundStyle(AppColors.foreground.secondary.color)
             
             TeamView(team: match.opponents?[1])
             

@@ -10,8 +10,8 @@ import UIKit
 
 class AppTitleFonts {
     
-    let largeTitleFont =  UIFont.init(name: "Roboto-Medium", size: 32.0)!
-    let defaultTitleFont =  UIFont.init(name: "Roboto-Medium", size: 24.0)!
+    let largeTitleFont =  UIFont.init(name: FontNames.medium.rawValue, size: 32.0)!
+    let defaultTitleFont =  UIFont.init(name: FontNames.medium.rawValue, size: 24.0)!
     
 }
 

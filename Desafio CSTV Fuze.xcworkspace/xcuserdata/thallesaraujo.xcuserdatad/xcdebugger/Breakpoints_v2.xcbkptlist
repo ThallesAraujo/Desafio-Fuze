@@ -30,8 +30,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Home/ViewModel/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "getMatches()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Home/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -278,22 +278,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "564D351D-6F6F-48D6-B070-CA265FA3C748"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getTeam(id:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "67BB0B41-1DE9-4BB8-93EF-C202F9162827"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -301,8 +285,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Home/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "navigateToDetails(match:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -317,8 +301,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "getTeams(match:)"
             landmarkType = "7">
             <Locations>
@@ -365,8 +349,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "getTeams(match:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -381,8 +365,8 @@
             filePath = "Desafio CSTV Fuze/Screens/Details/ViewModel/DetailsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "getTeams(match:)"
             landmarkType = "7">
             <Locations>

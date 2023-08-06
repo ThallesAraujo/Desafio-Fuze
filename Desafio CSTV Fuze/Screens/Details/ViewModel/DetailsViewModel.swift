@@ -15,18 +15,15 @@ class DetailsViewModel: ViewModel, ObservableObject{
     
     func getTeams(match: MatchResult?){
         
-        if let matchUnrapped = match{
-            
-            if let firstOpponentId = match?.opponents?[0].opponent?.id{
-                getTeam(id: firstOpponentId) { teams in
-                    self.firstTeam = teams?.first(where: {$0.id == firstOpponentId})
-                }
+        if let firstOpponentId = match?.opponents?[0].opponent?.id{
+            getTeam(id: firstOpponentId) { teams in
+                self.firstTeam = teams?.first
             }
-            
-            if let secondOpponentId = match?.opponents?[1].opponent?.id{
-                getTeam(id: secondOpponentId) { teams in
-                    self.secondTeam = teams?.first(where: {$0.id == secondOpponentId})
-                }
+        }
+        
+        if let secondOpponentId = match?.opponents?[1].opponent?.id{
+            getTeam(id: secondOpponentId) { teams in
+                self.secondTeam = teams?.first
             }
         }
         
@@ -35,8 +32,6 @@ class DetailsViewModel: ViewModel, ObservableObject{
     private func getTeam(id: Int, completion: @escaping(TeamResults?) -> Void){
         do{
             try self.perform(TeamResults.self, request: APIURLs.getTeam(id).request()) { team in
-                print("Team:")
-                dump(team)
                 completion(team)
             }
         }catch{

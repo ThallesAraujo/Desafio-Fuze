@@ -30,7 +30,7 @@ enum APIURLs{
     
     private func createRequest(withURL url: String) -> URLRequest{
         
-        var request = NSMutableURLRequest(url: URL(string: url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)!
+        let request = NSMutableURLRequest(url: URL(string: url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)!
                                           ,cachePolicy: .useProtocolCachePolicy,
                                           timeoutInterval: 10.0)
         
