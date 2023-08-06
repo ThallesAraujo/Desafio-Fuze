@@ -16,13 +16,13 @@ let headers = [
 
 enum APIURLs{
     
-    case getMatches
+    case getMatches(Int)
     case getTeam(Int)
     
     func request() throws -> URLRequest {
         switch self {
-        case .getMatches:
-            return createRequest(withURL: "\(baseURL)/matches")
+        case .getMatches(let page):
+            return createRequest(withURL: "\(baseURL)/matches?page=\(page)")
         case let .getTeam(id):
             return createRequest(withURL: "\(baseURL)/teams?filter[id]=\(id)")
         }

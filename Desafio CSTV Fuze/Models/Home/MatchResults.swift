@@ -93,7 +93,6 @@ struct GameWinner: Codable {
 struct League : Codable{
     var id: Int?
     var imageURL: String?
-    var modifiedAt: String?
     var name: String?
     var slug: String?
     var url: String?
@@ -101,7 +100,6 @@ struct League : Codable{
     enum CodingKeys: String, CodingKey {
             case id
             case imageURL = "image_url"
-            case modifiedAt = "modified_at"
             case name, slug, url
         }
 }
@@ -119,14 +117,12 @@ struct OpponentClass :Codable{
     var id: Int?
     var imageURL: String?
     var location: String?
-    var modifiedAt: String?
     var name, slug: String?
     
     enum CodingKeys: String, CodingKey {
            case id
            case imageURL = "image_url"
            case location
-           case modifiedAt = "modified_at"
            case name, slug
        }
 }
@@ -138,11 +134,9 @@ struct Serie : Codable{
     var endAt: String?
     var fullName: String?
     var id, leagueID: Int?
-    var modifiedAt: String?
     var name: String?
     var season: String?
     var slug: String?
-    var winnerID, winnerType: String?
     var year: Int?
     
     enum CodingKeys: String, CodingKey {
@@ -151,10 +145,7 @@ struct Serie : Codable{
             case fullName = "full_name"
             case id
             case leagueID = "league_id"
-            case modifiedAt = "modified_at"
             case name, season, slug
-            case winnerID = "winner_id"
-            case winnerType = "winner_type"
             case year
         }
 }

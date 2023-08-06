@@ -21,7 +21,7 @@ class ViewModel{
     private let disposeBag = DisposeBag()
     
     internal func perform<T:Decodable>(_ type: T.Type, request: URLRequest, successCompletion: @escaping (T) -> Void){
-    
+        
         isLoading = true
         
         guard NetworkTester().isConnected() else {
@@ -41,10 +41,10 @@ class ViewModel{
                 self?.showError = false
                 successCompletion(response)
             }, onError: { [weak self] error in
-                if let unitTesting = self?.isRunningUnitTests(), !unitTesting {
-                    self?.errorString = error.localizedDescription
-                    self?.errorProcedure()
-                }
+                
+                self?.errorString = error.localizedDescription
+                self?.errorProcedure()
+                
                 print("Error:\(error.localizedDescription)")
             }).disposed(by: disposeBag)
         

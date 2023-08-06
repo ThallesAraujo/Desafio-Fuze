@@ -13,6 +13,7 @@ struct Home: View {
     
     @State var goToDetails: Bool = false
     @State var selectedMatch: MatchResult?
+    @State var page: Int = 1
     
     var body: some View {
         
@@ -21,7 +22,7 @@ struct Home: View {
                 if viewModel.showError{
                     ErrorView(viewModel: viewModel)
                 }else{
-                    VStack(spacing: 24){
+                    LazyVStack(spacing: 24){
                         if viewModel.isLoading{
                             ProgressView()
                         }
@@ -30,6 +31,10 @@ struct Home: View {
                             ForEach(matches, id: \.id){match in
                                 Card(match: match).onTapGesture {
                                     self.navigateToDetails(match: match)
+                                }.onAppear {
+                                    if let thisItemIndex = viewModel.matches?.firstIndex(where: {$0.id == match.id }), let finalIndex = viewModel.matches?.count , thisItemIndex == finalIndex - 1{
+                                        loadNextPage()
+                                    }
                                 }
                             }
                         }
@@ -37,6 +42,7 @@ struct Home: View {
                         if let matchUnwrapped = selectedMatch{
                             NavigationLink(emptyString, destination: Details(match: matchUnwrapped), isActive: $goToDetails)
                         }
+                        
                         
                     }.padding(EdgeInsets(top: 24, leading: 24, bottom: 0, trailing: 24))
                 }
@@ -53,6 +59,13 @@ struct Home: View {
     func navigateToDetails(match: MatchResult){
         self.selectedMatch = match
         self.goToDetails = true
+    }
+    
+    private func loadNextPage(){
+        withAnimation {
+            self.page += 1
+            viewModel.getMatches(page: self.page)
+        }
     }
 }
 
