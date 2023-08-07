@@ -16,7 +16,7 @@ struct PlayerImage: View {
             RoundedRectangle(cornerRadius: 10).fill(.gray).frame(width: 50, height: 50)
             if let playerImage = player.imageURL, let imageURL = URL(string: playerImage){
                 AsyncImage(url: imageURL){image in
-                    image.resizable().aspectRatio(contentMode: .fill).frame(width: 50, height: 50).clipShape(RoundedRectangle(cornerRadius: 10))
+                    image.resizable().aspectRatio(contentMode: .fit).frame(width: 50, height: 50).clipShape(RoundedRectangle(cornerRadius: 10))
                 }placeholder: {
                     ProgressView()
                 }
