@@ -37,4 +37,8 @@
 
 - On line 51, at `HomeViewModel`, it was decided to remove matches without the opponents attribute, since it wouldn't be possible to load informations about the matches without the attribute `id` from the team, contained in the aforementioned object.
 
+Update (august, 7): it was later verified that PandaScore API has an endpoint that filters teams by name. However, with the only match found in that situation, only one team was both opponents (TBD vs TBD) and the API returned an empty response when filtered by it. If it was possible to filter by name and obtain a non-empty response, it could be profiled and performance-evaluated against the version without the request by name, since make a request for every match result, even with a lazy UI component, could have detrimental effects on it.
+![request result](screenshots/request_team_by_name.png)
+
+
 - By default, the app doesn't lists matches that occurred before the current date, since per business rule was mentioned "beginning from the current date". However, there's an user-changeable setting for togling this behavior
