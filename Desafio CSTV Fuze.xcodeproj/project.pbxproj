@@ -28,6 +28,7 @@
 		6F4FD1602A7D77200011D98C /* match.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FD15F2A7D77200011D98C /* match.json */; };
 		6F4FD1632A7D77510011D98C /* MatchesMockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FD1622A7D77510011D98C /* MatchesMockManager.swift */; };
 		6F57EC312A80476B0086065F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F57EC302A80476B0086065F /* CachedAsyncImage */; };
+		6F57EC332A8076D40086065F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F57EC322A8076D40086065F /* Settings.bundle */; };
 		6F9D47FA2A7BFCFC0047DB2E /* MatchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47F92A7BFCFC0047DB2E /* MatchResults.swift */; };
 		6F9D47FD2A7BFD4E0047DB2E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FC2A7BFD4E0047DB2E /* HomeViewModel.swift */; };
 		6F9D48002A7BFDDE0047DB2E /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FF2A7BFDDE0047DB2E /* Auth.swift */; };
@@ -70,6 +71,7 @@
 		6F4FD15B2A7D76160011D98C /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		6F4FD15F2A7D77200011D98C /* match.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = match.json; sourceTree = "<group>"; };
 		6F4FD1622A7D77510011D98C /* MatchesMockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMockManager.swift; sourceTree = "<group>"; };
+		6F57EC322A8076D40086065F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		6F9D47F92A7BFCFC0047DB2E /* MatchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResults.swift; sourceTree = "<group>"; };
 		6F9D47FC2A7BFD4E0047DB2E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6F9D47FF2A7BFDDE0047DB2E /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		6F1363722A7B402A00DD6717 = {
 			isa = PBXGroup;
 			children = (
+				6F57EC322A8076D40086065F /* Settings.bundle */,
 				6F13637D2A7B402A00DD6717 /* Desafio CSTV Fuze */,
 				6F13637C2A7B402A00DD6717 /* Products */,
 				7555D240328256F2413F01BE /* Pods */,
@@ -425,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F57EC332A8076D40086065F /* Settings.bundle in Resources */,
 				6F4FD1552A7D6F5E0011D98C /* Roboto-Black.ttf in Resources */,
 				6F4FD1532A7D6F5E0011D98C /* Roboto-Bold.ttf in Resources */,
 				6F1363862A7B402D00DD6717 /* Preview Assets.xcassets in Resources */,

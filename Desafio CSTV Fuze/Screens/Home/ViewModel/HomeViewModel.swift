@@ -48,12 +48,17 @@ class HomeViewModel: ViewModel, ObservableObject{
     }
     
     private func removeOldAndWithoutOpponentsMatches(_ matches: MatchResults) -> MatchResults{
-        var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1}).filter({match in
-            if let schedule = match.scheduledAt, let days = Calendar.current.dateComponents([.day], from: .now, to: schedule).day{
-                return days >= 0
-            }
-            return true
-        })
+        var allMatches = matches.filter({$0.opponents?.count ?? 0 > 1})
+            
+        if !UserDefaults.standard.bool(forKey: "enable_old_matches"){
+            allMatches = allMatches.filter({match in
+                if let schedule = match.scheduledAt, let days = Calendar.current.dateComponents([.day], from: .now, to: schedule).day{
+                    return days >= 0
+                }
+                return true
+            })
+        }
+            
         return allMatches
     }
     
