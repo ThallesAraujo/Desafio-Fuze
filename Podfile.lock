@@ -1,10 +1,17 @@
 PODS:
-  - Alamofire (5.7.1)
-  - RxAlamofire (6.1.1):
-    - RxAlamofire/Core (= 6.1.1)
-  - RxAlamofire/Core (6.1.1):
-    - Alamofire (~> 5.4)
-    - RxSwift (~> 6.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -13,26 +20,23 @@ PODS:
   - RxSwift (6.5.0)
 
 DEPENDENCIES:
-  - Alamofire
-  - RxAlamofire
+  - OHHTTPStubs/Swift
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - RxAlamofire
+    - OHHTTPStubs
     - RxCocoa
     - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
-  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
-  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 776ce446a08451d5054cf837a25b7b012fc64bf4
+PODFILE CHECKSUM: c544c9094655a1fec3912c91ef152d7058df204a
 
 COCOAPODS: 1.11.3

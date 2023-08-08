@@ -1,0 +1,4089 @@
+[
+  {
+    "begin_at": "2020-01-12T22:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-13T01:59:57Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T22:04:41Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T23:59:37Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13037,
+        "length": 6895,
+        "match_id": 552772,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126227,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-13T00:15:41Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-13T00:56:00Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13038,
+        "length": 2419,
+        "match_id": 552772,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 5793,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-13T01:10:18Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-13T01:59:58Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13039,
+        "length": 2979,
+        "match_id": 552772,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126227,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552772,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:51:13Z",
+    "name": "Semifinal 2: TeamOne vs RED Canids",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 5793,
+          "image_url": "https://cdn.pandascore.co/images/team/image/5793/ONE.png",
+          "location": "BR",
+          "modified_at": "2023-03-19T08:09:58Z",
+          "name": "TeamOne",
+          "slug": "team-one-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126227,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126227/red-canids-cs-go.png",
+          "location": "BR",
+          "modified_at": "2023-07-10T13:25:55Z",
+          "name": "RED Canids",
+          "slug": "red-canids-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T21:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 5793
+      },
+      {
+        "score": 2,
+        "team_id": 126227
+      }
+    ],
+    "scheduled_at": "2020-01-12T22:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "teamone-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126227,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126227/red-canids-cs-go.png",
+      "location": "BR",
+      "modified_at": "2023-07-10T13:25:55Z",
+      "name": "RED Canids",
+      "slug": "red-canids-cs-go"
+    },
+    "winner_id": 126227,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T21:50:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-13T01:11:23Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T21:55:56Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T22:35:55Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13034,
+        "length": 2399,
+        "match_id": 552771,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126771,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T22:45:44Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T23:45:21Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13035,
+        "length": 3577,
+        "match_id": 552771,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 125751,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T23:57:10Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-13T01:11:23Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13036,
+        "length": 4453,
+        "match_id": 552771,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 125751,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552771,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-13T01:11:23Z",
+    "name": "Semifinal 1: paiN vs YeaH!",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125751,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125751/pain-gaming-farnhu45.png",
+          "location": "BR",
+          "modified_at": "2023-07-14T13:31:44Z",
+          "name": "paiN",
+          "slug": "pain-gaming-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126771,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126771/8728.png",
+          "location": "BR",
+          "modified_at": "2022-02-04T16:05:30Z",
+          "name": "Yeah",
+          "slug": "yeah"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T21:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 125751
+      },
+      {
+        "score": 1,
+        "team_id": 126771
+      }
+    ],
+    "scheduled_at": "2020-01-12T21:45:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "pain-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 125751,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125751/pain-gaming-farnhu45.png",
+      "location": "BR",
+      "modified_at": "2023-07-14T13:31:44Z",
+      "name": "paiN",
+      "slug": "pain-gaming-cs-go"
+    },
+    "winner_id": 125751,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T18:15:28Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T21:11:11Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T18:15:29Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:09:36Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13031,
+        "length": 3247,
+        "match_id": 552770,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 125929,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T19:24:25Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T20:10:56Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13032,
+        "length": 2790,
+        "match_id": 552770,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126227,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T20:18:27Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T21:11:12Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13033,
+        "length": 3164,
+        "match_id": 552770,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126227,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552770,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:40:55Z",
+    "name": "Quarterfinal 4: RED Canids vs W7M",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126227,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126227/red-canids-cs-go.png",
+          "location": "BR",
+          "modified_at": "2023-07-10T13:25:55Z",
+          "name": "RED Canids",
+          "slug": "red-canids-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125929,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125929/8574.png",
+          "location": "BR",
+          "modified_at": "2023-07-31T20:35:48Z",
+          "name": "W7M",
+          "slug": "w7m"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T18:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126227
+      },
+      {
+        "score": 1,
+        "team_id": 125929
+      }
+    ],
+    "scheduled_at": "2020-01-12T18:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "2020-01-12-92c27b38-dd31-4cd0-8b1c-4a6d74b047ee",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126227,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126227/red-canids-cs-go.png",
+      "location": "BR",
+      "modified_at": "2023-07-10T13:25:55Z",
+      "name": "RED Canids",
+      "slug": "red-canids-cs-go"
+    },
+    "winner_id": 126227,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T18:11:36Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T19:48:56Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T18:11:36Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:05:28Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13028,
+        "length": 3231,
+        "match_id": 552769,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 5793,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T19:16:28Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:48:57Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13029,
+        "length": 1948,
+        "match_id": 552769,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 5793,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552769,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T19:48:57Z",
+    "name": "Quarterfinal 3: Imperial vs TeamOne",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126377,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126377/153px_imperial_esports_2022_allmode.png",
+          "location": "BR",
+          "modified_at": "2023-07-25T16:50:48Z",
+          "name": "Imperial",
+          "slug": "imperial-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 5793,
+          "image_url": "https://cdn.pandascore.co/images/team/image/5793/ONE.png",
+          "location": "BR",
+          "modified_at": "2023-03-19T08:09:58Z",
+          "name": "TeamOne",
+          "slug": "team-one-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T18:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 126377
+      },
+      {
+        "score": 2,
+        "team_id": 5793
+      }
+    ],
+    "scheduled_at": "2020-01-12T18:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "2020-01-12-ba8da0b1-0de9-4708-925a-ce47ac46b0ad",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 5793,
+      "image_url": "https://cdn.pandascore.co/images/team/image/5793/ONE.png",
+      "location": "BR",
+      "modified_at": "2023-03-19T08:09:58Z",
+      "name": "TeamOne",
+      "slug": "team-one-cs-go"
+    },
+    "winner_id": 5793,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T18:20:27Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T20:21:10Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T18:20:28Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:52:31Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13025,
+        "length": 1923,
+        "match_id": 552768,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 125751,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T19:08:50Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T20:21:11Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13026,
+        "length": 4340,
+        "match_id": 552768,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 125751,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552768,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:45:34Z",
+    "name": "Quarterfinal 2: Redemption POA vs paiN",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125955,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125955/9902.png",
+          "location": "BR",
+          "modified_at": "2021-03-09T11:28:21Z",
+          "name": "Redemption POA",
+          "slug": "redemption-poa"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125751,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125751/pain-gaming-farnhu45.png",
+          "location": "BR",
+          "modified_at": "2023-07-14T13:31:44Z",
+          "name": "paiN",
+          "slug": "pain-gaming-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T18:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 125955
+      },
+      {
+        "score": 2,
+        "team_id": 125751
+      }
+    ],
+    "scheduled_at": "2020-01-12T18:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "2020-01-12-d1f67728-9187-4619-a373-c83ca0c618be",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 125751,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125751/pain-gaming-farnhu45.png",
+      "location": "BR",
+      "modified_at": "2023-07-14T13:31:44Z",
+      "name": "paiN",
+      "slug": "pain-gaming-cs-go"
+    },
+    "winner_id": 125751,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T18:20:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T20:55:02Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T18:21:46Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:54:53Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13022,
+        "length": 5587,
+        "match_id": 552767,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126771,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T20:04:18Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T20:55:02Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 13023,
+        "length": 3044,
+        "match_id": 552767,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126771,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552767,
+    "league": {
+      "id": 4193,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4193/640px-WESG_2018.png",
+      "modified_at": "2019-06-03T10:05:51Z",
+      "name": "WESG",
+      "slug": "cs-go-wesg",
+      "url": null
+    },
+    "league_id": 4193,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T20:55:03Z",
+    "name": "Quarterfinal 1: DETONA vs YeaH!",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125866,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125866/8902.png",
+          "location": "BR",
+          "modified_at": "2022-04-10T16:00:29Z",
+          "name": "DETONA",
+          "slug": "detona-gaming"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126771,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126771/8728.png",
+          "location": "BR",
+          "modified_at": "2022-02-04T16:05:30Z",
+          "name": "Yeah",
+          "slug": "yeah"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T18:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 125866
+      },
+      {
+        "score": 2,
+        "team_id": 126771
+      }
+    ],
+    "scheduled_at": "2020-01-12T18:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "end_at": "2020-01-13T01:59:00Z",
+      "full_name": "Brazil closed qualifier 2019",
+      "id": 2380,
+      "league_id": 4193,
+      "modified_at": "2020-01-13T08:13:39Z",
+      "name": "Brazil closed qualifier",
+      "season": null,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    },
+    "serie_id": 2380,
+    "slug": "2020-01-12-6f7691cb-bb07-4d84-9137-e0336e9b3805",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T18:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:59:00Z",
+      "has_bracket": true,
+      "id": 3537,
+      "league_id": 4193,
+      "live_supported": false,
+      "modified_at": "2020-06-17T06:24:35Z",
+      "name": "Playoffs",
+      "prizepool": null,
+      "serie_id": 2380,
+      "slug": "cs-go-wesg-brazil-closed-qualifier-2020-playoffs",
+      "tier": null,
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3537,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126771,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126771/8728.png",
+      "location": "BR",
+      "modified_at": "2022-02-04T16:05:30Z",
+      "name": "Yeah",
+      "slug": "yeah"
+    },
+    "winner_id": 126771,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T17:10:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T20:13:45Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T17:31:54Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:27:30Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12943,
+        "length": 3336,
+        "match_id": 552608,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126754,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T18:39:03Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:11:46Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12944,
+        "length": 1963,
+        "match_id": 552608,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126151,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T19:25:11Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T20:13:46Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12945,
+        "length": 2914,
+        "match_id": 552608,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126754,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552608,
+    "league": {
+      "id": 4293,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4293/600px-Winners3.png",
+      "modified_at": "2020-01-10T09:27:08Z",
+      "name": "WINNERS League",
+      "slug": "cs-go-winners-league",
+      "url": null
+    },
+    "league_id": 4293,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:31:18Z",
+    "name": "Round of 16: Unique vs MeAndTheBoys",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126151,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126151/9287.png",
+          "location": "RU",
+          "modified_at": "2023-03-12T19:13:06Z",
+          "name": "Unique",
+          "slug": "unique"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126754,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126754/136px_meandtheboys5daff930d7e2f818768138.png",
+          "location": null,
+          "modified_at": "2021-07-29T13:46:40Z",
+          "name": "MeAndTheBoys",
+          "slug": "me-the-boys"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T17:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 126151
+      },
+      {
+        "score": 2,
+        "team_id": 126754
+      }
+    ],
+    "scheduled_at": "2020-01-12T17:00:00Z",
+    "serie": {
+      "begin_at": "2019-10-20T22:00:00Z",
+      "end_at": "2020-01-24T18:19:00Z",
+      "full_name": "Europe Invite Division season 3 2020",
+      "id": 2375,
+      "league_id": 4293,
+      "modified_at": "2020-01-26T09:29:13Z",
+      "name": "Europe Invite Division",
+      "season": "3",
+      "slug": "cs-go-winners-league-europe-invite-division-3-2020",
+      "winner_id": 126231,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2375,
+    "slug": "unique-vs-me-the-boys-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-13T19:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-24T18:19:00Z",
+      "has_bracket": true,
+      "id": 3532,
+      "league_id": 4293,
+      "live_supported": false,
+      "modified_at": "2020-01-26T09:27:53Z",
+      "name": "Playoffs",
+      "prizepool": "15000 United States Dollar",
+      "serie_id": 2375,
+      "slug": "cs-go-winners-league-europe-invite-division-3-2020-playoffs",
+      "tier": null,
+      "winner_id": 126231,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3532,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126754,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126754/136px_meandtheboys5daff930d7e2f818768138.png",
+      "location": null,
+      "modified_at": "2021-07-29T13:46:40Z",
+      "name": "MeAndTheBoys",
+      "slug": "me-the-boys"
+    },
+    "winner_id": 126754,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T20:25:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T22:08:04Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T20:27:20Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T21:15:16Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12934,
+        "length": 2875,
+        "match_id": 552605,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126694,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T21:26:22Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T22:08:05Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12935,
+        "length": 2502,
+        "match_id": 552605,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126694,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552605,
+    "league": {
+      "id": 4293,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4293/600px-Winners3.png",
+      "modified_at": "2020-01-10T09:27:08Z",
+      "name": "WINNERS League",
+      "slug": "cs-go-winners-league",
+      "url": null
+    },
+    "league_id": 4293,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-16T19:56:49Z",
+    "name": "Round of 16: Tenerife Titans vs BIG Academy",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126526,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126526/10162.png",
+          "location": null,
+          "modified_at": "2021-07-23T12:48:27Z",
+          "name": "Tenerife Titans",
+          "slug": "tenerife-titans"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126694,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126694/big.png",
+          "location": "DE",
+          "modified_at": "2023-06-22T14:46:55Z",
+          "name": "BIG Academy",
+          "slug": "big-academy"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T19:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 126526
+      },
+      {
+        "score": 2,
+        "team_id": 126694
+      }
+    ],
+    "scheduled_at": "2020-01-12T20:30:00Z",
+    "serie": {
+      "begin_at": "2019-10-20T22:00:00Z",
+      "end_at": "2020-01-24T18:19:00Z",
+      "full_name": "Europe Invite Division season 3 2020",
+      "id": 2375,
+      "league_id": 4293,
+      "modified_at": "2020-01-26T09:29:13Z",
+      "name": "Europe Invite Division",
+      "season": "3",
+      "slug": "cs-go-winners-league-europe-invite-division-3-2020",
+      "winner_id": 126231,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2375,
+    "slug": "tenerife-titans-vs-big-academy-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-13T19:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-24T18:19:00Z",
+      "has_bracket": true,
+      "id": 3532,
+      "league_id": 4293,
+      "live_supported": false,
+      "modified_at": "2020-01-26T09:27:53Z",
+      "name": "Playoffs",
+      "prizepool": "15000 United States Dollar",
+      "serie_id": 2375,
+      "slug": "cs-go-winners-league-europe-invite-division-3-2020-playoffs",
+      "tier": null,
+      "winner_id": 126231,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3532,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126694,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126694/big.png",
+      "location": "DE",
+      "modified_at": "2023-06-22T14:46:55Z",
+      "name": "BIG Academy",
+      "slug": "big-academy"
+    },
+    "winner_id": 126694,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T09:15:00Z",
+    "detailed_stats": false,
+    "draw": false,
+    "end_at": "2020-01-12T11:10:59Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T09:09:04Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T10:00:04Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12908,
+        "length": 3059,
+        "match_id": 552557,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126445,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T10:11:34Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T11:10:59Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12909,
+        "length": 3565,
+        "match_id": 552557,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126445,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552557,
+    "league": {
+      "id": 4291,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4291/800px-GeForce_Cup_Pacific.png",
+      "modified_at": "2020-01-07T11:12:51Z",
+      "name": "GeForce Cup Pacific",
+      "slug": "cs-go-geforce-cup-pacific",
+      "url": null
+    },
+    "league_id": 4291,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T11:10:59Z",
+    "name": "3rd Place Match: BOOM vs GTV.Revolution",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126445,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126445/boom_esports_logo.png",
+          "location": "ID",
+          "modified_at": "2021-04-29T16:37:56Z",
+          "name": "BOOM",
+          "slug": "boom"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125776,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125776/600px-Team_Revolution__Vietnamese_team__logo.png",
+          "location": "VN",
+          "modified_at": "2020-01-11T16:34:04Z",
+          "name": "GTV.Revolution",
+          "slug": "revolution"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T10:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126445
+      },
+      {
+        "score": 0,
+        "team_id": 125776
+      }
+    ],
+    "scheduled_at": "2020-01-12T09:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T02:00:00Z",
+      "end_at": "2020-01-12T12:10:00Z",
+      "full_name": "2020",
+      "id": 2371,
+      "league_id": 4291,
+      "modified_at": "2020-01-12T16:50:10Z",
+      "name": null,
+      "season": null,
+      "slug": "cs-go-geforce-cup-pacific-2019",
+      "winner_id": 126443,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2371,
+    "slug": "boom-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T02:00:00Z",
+      "detailed_stats": false,
+      "end_at": "2020-01-12T12:10:00Z",
+      "has_bracket": true,
+      "id": 3524,
+      "league_id": 4291,
+      "live_supported": false,
+      "modified_at": "2020-01-12T16:50:02Z",
+      "name": "Playoffs",
+      "prizepool": "17000 United States Dollar",
+      "serie_id": 2371,
+      "slug": "cs-go-geforce-cup-pacific-2019-playoffs",
+      "tier": null,
+      "winner_id": 126443,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3524,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126445,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126445/boom_esports_logo.png",
+      "location": "ID",
+      "modified_at": "2021-04-29T16:37:56Z",
+      "name": "BOOM",
+      "slug": "boom"
+    },
+    "winner_id": 126445,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T09:10:00Z",
+    "detailed_stats": false,
+    "draw": false,
+    "end_at": "2020-01-12T12:10:51Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T09:08:52Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T11:01:42Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12905,
+        "length": 6770,
+        "match_id": 552556,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126443,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T11:21:22Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T12:10:52Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12906,
+        "length": 2969,
+        "match_id": 552556,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126443,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552556,
+    "league": {
+      "id": 4291,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4291/800px-GeForce_Cup_Pacific.png",
+      "modified_at": "2020-01-07T11:12:51Z",
+      "name": "GeForce Cup Pacific",
+      "slug": "cs-go-geforce-cup-pacific",
+      "url": null
+    },
+    "league_id": 4291,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T12:10:52Z",
+    "name": "Final: Bren vs Maple",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126443,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126443/10206.png",
+          "location": "PH",
+          "modified_at": "2021-08-11T21:00:21Z",
+          "name": "Bren",
+          "slug": "bren"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126758,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126758/8220.png",
+          "location": "TH",
+          "modified_at": "2023-07-14T07:54:30Z",
+          "name": "Maple",
+          "slug": "maple-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T10:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126443
+      },
+      {
+        "score": 0,
+        "team_id": 126758
+      }
+    ],
+    "scheduled_at": "2020-01-12T09:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T02:00:00Z",
+      "end_at": "2020-01-12T12:10:00Z",
+      "full_name": "2020",
+      "id": 2371,
+      "league_id": 4291,
+      "modified_at": "2020-01-12T16:50:10Z",
+      "name": null,
+      "season": null,
+      "slug": "cs-go-geforce-cup-pacific-2019",
+      "winner_id": 126443,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2371,
+    "slug": "bren-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T02:00:00Z",
+      "detailed_stats": false,
+      "end_at": "2020-01-12T12:10:00Z",
+      "has_bracket": true,
+      "id": 3524,
+      "league_id": 4291,
+      "live_supported": false,
+      "modified_at": "2020-01-12T16:50:02Z",
+      "name": "Playoffs",
+      "prizepool": "17000 United States Dollar",
+      "serie_id": 2371,
+      "slug": "cs-go-geforce-cup-pacific-2019-playoffs",
+      "tier": null,
+      "winner_id": 126443,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3524,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126443,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126443/10206.png",
+      "location": "PH",
+      "modified_at": "2021-08-11T21:00:21Z",
+      "name": "Bren",
+      "slug": "bren"
+    },
+    "winner_id": 126443,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T05:30:00Z",
+    "detailed_stats": false,
+    "draw": false,
+    "end_at": "2020-01-12T08:18:29Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T05:31:18Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T06:17:45Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12902,
+        "length": 2787,
+        "match_id": 552555,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 125776,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T06:43:28Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T07:19:43Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12903,
+        "length": 2174,
+        "match_id": 552555,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126758,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T07:34:33Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T08:18:30Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12904,
+        "length": 2636,
+        "match_id": 552555,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126758,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552555,
+    "league": {
+      "id": 4291,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4291/800px-GeForce_Cup_Pacific.png",
+      "modified_at": "2020-01-07T11:12:51Z",
+      "name": "GeForce Cup Pacific",
+      "slug": "cs-go-geforce-cup-pacific",
+      "url": null
+    },
+    "league_id": 4291,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T11:20:50Z",
+    "name": "Semifinal 2: Maple vs GTV.Revolution",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126758,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126758/8220.png",
+          "location": "TH",
+          "modified_at": "2023-07-14T07:54:30Z",
+          "name": "Maple",
+          "slug": "maple-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125776,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125776/600px-Team_Revolution__Vietnamese_team__logo.png",
+          "location": "VN",
+          "modified_at": "2020-01-11T16:34:04Z",
+          "name": "GTV.Revolution",
+          "slug": "revolution"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T06:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126758
+      },
+      {
+        "score": 1,
+        "team_id": 125776
+      }
+    ],
+    "scheduled_at": "2020-01-12T05:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T02:00:00Z",
+      "end_at": "2020-01-12T12:10:00Z",
+      "full_name": "2020",
+      "id": 2371,
+      "league_id": 4291,
+      "modified_at": "2020-01-12T16:50:10Z",
+      "name": null,
+      "season": null,
+      "slug": "cs-go-geforce-cup-pacific-2019",
+      "winner_id": 126443,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2371,
+    "slug": "maple-vs-gtv-revolution-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T02:00:00Z",
+      "detailed_stats": false,
+      "end_at": "2020-01-12T12:10:00Z",
+      "has_bracket": true,
+      "id": 3524,
+      "league_id": 4291,
+      "live_supported": false,
+      "modified_at": "2020-01-12T16:50:02Z",
+      "name": "Playoffs",
+      "prizepool": "17000 United States Dollar",
+      "serie_id": 2371,
+      "slug": "cs-go-geforce-cup-pacific-2019-playoffs",
+      "tier": null,
+      "winner_id": 126443,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3524,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126758,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126758/8220.png",
+      "location": "TH",
+      "modified_at": "2023-07-14T07:54:30Z",
+      "name": "Maple",
+      "slug": "maple-cs-go"
+    },
+    "winner_id": 126758,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T02:30:00Z",
+    "detailed_stats": false,
+    "draw": false,
+    "end_at": "2020-01-12T04:26:13Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T02:35:42Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T03:14:53Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12899,
+        "length": 2350,
+        "match_id": 552554,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126443,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T03:30:03Z",
+        "complete": true,
+        "detailed_stats": false,
+        "end_at": "2020-01-12T04:26:13Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12900,
+        "length": 3370,
+        "match_id": 552554,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126443,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552554,
+    "league": {
+      "id": 4291,
+      "image_url": "https://cdn.pandascore.co/images/league/image/4291/800px-GeForce_Cup_Pacific.png",
+      "modified_at": "2020-01-07T11:12:51Z",
+      "name": "GeForce Cup Pacific",
+      "slug": "cs-go-geforce-cup-pacific",
+      "url": null
+    },
+    "league_id": 4291,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T04:26:14Z",
+    "name": "Semifinal 1: Bren vs BOOM",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126443,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126443/10206.png",
+          "location": "PH",
+          "modified_at": "2021-08-11T21:00:21Z",
+          "name": "Bren",
+          "slug": "bren"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126445,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126445/boom_esports_logo.png",
+          "location": "ID",
+          "modified_at": "2021-04-29T16:37:56Z",
+          "name": "BOOM",
+          "slug": "boom"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T02:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126443
+      },
+      {
+        "score": 0,
+        "team_id": 126445
+      }
+    ],
+    "scheduled_at": "2020-01-12T02:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T02:00:00Z",
+      "end_at": "2020-01-12T12:10:00Z",
+      "full_name": "2020",
+      "id": 2371,
+      "league_id": 4291,
+      "modified_at": "2020-01-12T16:50:10Z",
+      "name": null,
+      "season": null,
+      "slug": "cs-go-geforce-cup-pacific-2019",
+      "winner_id": 126443,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2371,
+    "slug": "bren-vs-boom-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T02:00:00Z",
+      "detailed_stats": false,
+      "end_at": "2020-01-12T12:10:00Z",
+      "has_bracket": true,
+      "id": 3524,
+      "league_id": 4291,
+      "live_supported": false,
+      "modified_at": "2020-01-12T16:50:02Z",
+      "name": "Playoffs",
+      "prizepool": "17000 United States Dollar",
+      "serie_id": 2371,
+      "slug": "cs-go-geforce-cup-pacific-2019-playoffs",
+      "tier": null,
+      "winner_id": 126443,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3524,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126443,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126443/10206.png",
+      "location": "PH",
+      "modified_at": "2021-08-11T21:00:21Z",
+      "name": "Bren",
+      "slug": "bren"
+    },
+    "winner_id": 126443,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T23:05:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-13T01:20:01Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T23:06:08Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-13T00:17:59Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12580,
+        "length": 4310,
+        "match_id": 552209,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-13T00:26:23Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-13T01:20:02Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12581,
+        "length": 3218,
+        "match_id": 552209,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552209,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T07:00:58Z",
+    "name": "Grand final: Cloud9 vs eUnited",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3223,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+          "location": "US",
+          "modified_at": "2023-08-03T09:43:43Z",
+          "name": "Cloud9",
+          "slug": "cloud9-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3388,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3388/Eunited.png",
+          "location": "US",
+          "modified_at": "2020-03-08T11:47:55Z",
+          "name": "eUnited",
+          "slug": "eunited-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-13T02:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3223
+      },
+      {
+        "score": 0,
+        "team_id": 3388
+      }
+    ],
+    "scheduled_at": "2020-01-12T23:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "cloud9-2020-01-13",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3223,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+      "location": "US",
+      "modified_at": "2023-08-03T09:43:43Z",
+      "name": "Cloud9",
+      "slug": "cloud9-cs-go"
+    },
+    "winner_id": 3223,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T20:25:27Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T22:04:23Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T20:25:30Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T21:09:41Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12577,
+        "length": 2651,
+        "match_id": 552208,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3388,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T21:22:12Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T22:04:24Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12578,
+        "length": 2531,
+        "match_id": 552208,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3388,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552208,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:55:15Z",
+    "name": "Semifinal 2: eUnited vs Gen.G",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3388,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3388/Eunited.png",
+          "location": "US",
+          "modified_at": "2020-03-08T11:47:55Z",
+          "name": "eUnited",
+          "slug": "eunited-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126614,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126614/_.png",
+          "location": null,
+          "modified_at": "2021-03-11T19:07:18Z",
+          "name": "Gen.G",
+          "slug": "gen-g-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T23:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3388
+      },
+      {
+        "score": 0,
+        "team_id": 126614
+      }
+    ],
+    "scheduled_at": "2020-01-12T20:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "eunited-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3388,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3388/Eunited.png",
+      "location": "US",
+      "modified_at": "2020-03-08T11:47:55Z",
+      "name": "eUnited",
+      "slug": "eunited-cs-go"
+    },
+    "winner_id": 3388,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T20:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T21:59:51Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T20:01:16Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T20:51:02Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12574,
+        "length": 2985,
+        "match_id": 552207,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T21:04:06Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T21:59:52Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12575,
+        "length": 3345,
+        "match_id": 552207,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552207,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T21:59:52Z",
+    "name": "Semifinal 1: Complexity vs Cloud9",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3310,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3310/600px_complexity_gaming_2019.png",
+          "location": "US",
+          "modified_at": "2023-07-19T07:52:47Z",
+          "name": "Complexity",
+          "slug": "complexity"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3223,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+          "location": "US",
+          "modified_at": "2023-08-03T09:43:43Z",
+          "name": "Cloud9",
+          "slug": "cloud9-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T23:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 3310
+      },
+      {
+        "score": 2,
+        "team_id": 3223
+      }
+    ],
+    "scheduled_at": "2020-01-12T20:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "complexity-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3223,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+      "location": "US",
+      "modified_at": "2023-08-03T09:43:43Z",
+      "name": "Cloud9",
+      "slug": "cloud9-cs-go"
+    },
+    "winner_id": 3223,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T17:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T19:10:33Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T17:16:29Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:00:45Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12571,
+        "length": 2656,
+        "match_id": 552206,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3388,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T18:16:58Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:10:33Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12572,
+        "length": 3215,
+        "match_id": 552206,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3388,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552206,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:38:08Z",
+    "name": "Quarterfinal 4: eUnited vs Chaos",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3388,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3388/Eunited.png",
+          "location": "US",
+          "modified_at": "2020-03-08T11:47:55Z",
+          "name": "eUnited",
+          "slug": "eunited-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125798,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125798/600px_chaos_esports_club_logo_2019_acid.png",
+          "location": "US",
+          "modified_at": "2021-01-03T05:56:30Z",
+          "name": "Chaos",
+          "slug": "chaos-esports-club-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T20:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3388
+      },
+      {
+        "score": 0,
+        "team_id": 125798
+      }
+    ],
+    "scheduled_at": "2020-01-12T17:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-ba9df199-d7b0-4b22-8978-26d3e45bacda",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3388,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3388/Eunited.png",
+      "location": "US",
+      "modified_at": "2020-03-08T11:47:55Z",
+      "name": "eUnited",
+      "slug": "eunited-cs-go"
+    },
+    "winner_id": 3388,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T17:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T19:47:06Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T17:19:18Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:17:51Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12568,
+        "length": 3512,
+        "match_id": 552205,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126614,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T18:32:38Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T19:47:07Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12569,
+        "length": 4468,
+        "match_id": 552205,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126614,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552205,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:52:56Z",
+    "name": "Quarterfinal 3: Gen.G vs INTZ",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126614,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126614/_.png",
+          "location": null,
+          "modified_at": "2021-03-11T19:07:18Z",
+          "name": "Gen.G",
+          "slug": "gen-g-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3391,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3391/INTZ.png",
+          "location": "BR",
+          "modified_at": "2023-07-14T09:52:26Z",
+          "name": "INTZ",
+          "slug": "intz-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T20:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126614
+      },
+      {
+        "score": 0,
+        "team_id": 3391
+      }
+    ],
+    "scheduled_at": "2020-01-12T17:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-bf054979-f02f-4e3d-bebf-da75c020abc1",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126614,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126614/_.png",
+      "location": null,
+      "modified_at": "2021-03-11T19:07:18Z",
+      "name": "Gen.G",
+      "slug": "gen-g-cs-go"
+    },
+    "winner_id": 126614,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T17:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T18:39:01Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T17:10:59Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T17:51:04Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12565,
+        "length": 2404,
+        "match_id": 552204,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3310,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T17:59:16Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:39:02Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12566,
+        "length": 2385,
+        "match_id": 552204,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3310,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552204,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T18:39:02Z",
+    "name": "Quarterfinal 2: Singularity vs Complexity",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125777,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125777/600px_singularity_esports_2018.png",
+          "location": "DK",
+          "modified_at": "2023-08-05T01:41:43Z",
+          "name": "Singularity",
+          "slug": "singularity-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3310,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3310/600px_complexity_gaming_2019.png",
+          "location": "US",
+          "modified_at": "2023-07-19T07:52:47Z",
+          "name": "Complexity",
+          "slug": "complexity"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T20:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 125777
+      },
+      {
+        "score": 2,
+        "team_id": 3310
+      }
+    ],
+    "scheduled_at": "2020-01-12T17:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-69df207a-d61b-4306-882f-44bdfb1e2f0e",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3310,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3310/600px_complexity_gaming_2019.png",
+      "location": "US",
+      "modified_at": "2023-07-19T07:52:47Z",
+      "name": "Complexity",
+      "slug": "complexity"
+    },
+    "winner_id": 3310,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T17:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T18:54:13Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T17:07:32Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T17:52:46Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12562,
+        "length": 2714,
+        "match_id": 552203,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T18:04:40Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:54:14Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12563,
+        "length": 2973,
+        "match_id": 552203,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3223,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552203,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:46:59Z",
+    "name": "Quarterfinal 1: Cloud9 vs Triumph",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3223,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+          "location": "US",
+          "modified_at": "2023-08-03T09:43:43Z",
+          "name": "Cloud9",
+          "slug": "cloud9-cs-go"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126464,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126464/triumph.png",
+          "location": "US",
+          "modified_at": "2022-01-26T17:42:51Z",
+          "name": "Triumph",
+          "slug": "triumph-cs-go"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T20:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3223
+      },
+      {
+        "score": 0,
+        "team_id": 126464
+      }
+    ],
+    "scheduled_at": "2020-01-12T17:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-9c831181-178e-4863-af71-5fcb4d694423",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T20:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-13T01:20:00Z",
+      "has_bracket": true,
+      "id": 3497,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:16:58Z",
+      "name": "North American Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-north-american-closed-qualifier-2020-playoffs",
+      "tier": "b",
+      "winner_id": 3223,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3497,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3223,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+      "location": "US",
+      "modified_at": "2023-08-03T09:43:43Z",
+      "name": "Cloud9",
+      "slug": "cloud9-cs-go"
+    },
+    "winner_id": 3223,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T15:25:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T17:25:23Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T15:30:02Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T16:17:42Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12556,
+        "length": 2859,
+        "match_id": 552201,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126504,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T16:33:23Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T17:25:23Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12557,
+        "length": 3120,
+        "match_id": 552201,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126504,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552201,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T17:25:23Z",
+    "name": "Semifinal 2: MAD Lions vs Defusekids",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126504,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126504/8362.png",
+          "location": "ES",
+          "modified_at": "2022-04-03T20:50:22Z",
+          "name": "MAD Lions",
+          "slug": "mad-lions"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125771,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125771/defusekids.png",
+          "location": "BE",
+          "modified_at": "2020-06-01T06:18:04Z",
+          "name": "Defusekids",
+          "slug": "defusekids"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T15:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126504
+      },
+      {
+        "score": 0,
+        "team_id": 125771
+      }
+    ],
+    "scheduled_at": "2020-01-12T15:30:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "mad-lions-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126504,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126504/8362.png",
+      "location": "ES",
+      "modified_at": "2022-04-03T20:50:22Z",
+      "name": "MAD Lions",
+      "slug": "mad-lions"
+    },
+    "winner_id": 126504,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T15:45:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T18:02:48Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T16:02:58Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T16:51:53Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12553,
+        "length": 2935,
+        "match_id": 552200,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 3246,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T17:12:05Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T18:02:48Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12554,
+        "length": 3043,
+        "match_id": 552200,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3246,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552200,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-11-05T06:35:28Z",
+    "name": "Semifinal 1: Heroic vs Gambit Youngsters",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3246,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3246/680px_heroic_2023_allmode.png",
+          "location": "DK",
+          "modified_at": "2023-08-03T09:43:51Z",
+          "name": "Heroic",
+          "slug": "heroic"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126150,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126150/600px_gambit_2020.png",
+          "location": "RU",
+          "modified_at": "2020-10-13T17:31:03Z",
+          "name": "Gambit Youngsters",
+          "slug": "gambit-youngsters"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T15:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3246
+      },
+      {
+        "score": 0,
+        "team_id": 126150
+      }
+    ],
+    "scheduled_at": "2020-01-12T15:45:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "heroic-2020-01-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3246,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3246/680px_heroic_2023_allmode.png",
+      "location": "DK",
+      "modified_at": "2023-08-03T09:43:51Z",
+      "name": "Heroic",
+      "slug": "heroic"
+    },
+    "winner_id": 3246,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T11:10:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T14:42:09Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T11:14:05Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T12:13:43Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12550,
+        "length": 3578,
+        "match_id": 552199,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126077,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T12:28:27Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T13:30:12Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12551,
+        "length": 3704,
+        "match_id": 552199,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 125771,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T13:43:40Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T14:42:10Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12552,
+        "length": 3509,
+        "match_id": 552199,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 125771,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552199,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T14:42:10Z",
+    "name": "Quarterfinal 4: CR4ZY vs Defusekids",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126077,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126077/600px_cr4_zy.png",
+          "location": "HR",
+          "modified_at": "2021-02-24T09:20:28Z",
+          "name": "CR4ZY",
+          "slug": "cr4zy"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 125771,
+          "image_url": "https://cdn.pandascore.co/images/team/image/125771/defusekids.png",
+          "location": "BE",
+          "modified_at": "2020-06-01T06:18:04Z",
+          "name": "Defusekids",
+          "slug": "defusekids"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T12:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 126077
+      },
+      {
+        "score": 2,
+        "team_id": 125771
+      }
+    ],
+    "scheduled_at": "2020-01-12T11:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-93bf1f28-ad8e-4d62-b68f-960e51217e4b",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 125771,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125771/defusekids.png",
+      "location": "BE",
+      "modified_at": "2020-06-01T06:18:04Z",
+      "name": "Defusekids",
+      "slug": "defusekids"
+    },
+    "winner_id": 125771,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T11:15:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T14:16:49Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T11:17:36Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T11:59:00Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12547,
+        "length": 2483,
+        "match_id": 552198,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126288,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T12:14:58Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T13:01:47Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12548,
+        "length": 2809,
+        "match_id": 552198,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126504,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T13:16:23Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T14:16:50Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12549,
+        "length": 3626,
+        "match_id": 552198,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126504,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552198,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T14:16:50Z",
+    "name": "Quarterfinal 3: MAD Lions vs SKADE",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126504,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126504/8362.png",
+          "location": "ES",
+          "modified_at": "2022-04-03T20:50:22Z",
+          "name": "MAD Lions",
+          "slug": "mad-lions"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126288,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126288/600px_skade_december_2019.png",
+          "location": "BG",
+          "modified_at": "2022-09-11T07:18:46Z",
+          "name": "SKADE",
+          "slug": "skade"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T12:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 126504
+      },
+      {
+        "score": 1,
+        "team_id": 126288
+      }
+    ],
+    "scheduled_at": "2020-01-12T11:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-861dcabf-5d60-4bc1-a88c-2104dc6de783",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126504,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126504/8362.png",
+      "location": "ES",
+      "modified_at": "2022-04-03T20:50:22Z",
+      "name": "MAD Lions",
+      "slug": "mad-lions"
+    },
+    "winner_id": 126504,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T11:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T15:23:47Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T11:07:46Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T12:06:25Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12544,
+        "length": 3518,
+        "match_id": 552197,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126147,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T12:19:53Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T13:28:32Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12545,
+        "length": 4118,
+        "match_id": 552197,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 126150,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T13:39:31Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T15:23:47Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12546,
+        "length": 6256,
+        "match_id": 552197,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 126150,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552197,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T15:23:48Z",
+    "name": "Quarterfinal 2: Heretics vs Gambit Youngsters",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126147,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126147/_lg_c4_erw_hpn_c_rz_cc_hfak_xv.png",
+          "location": "ES",
+          "modified_at": "2021-03-15T11:26:24Z",
+          "name": "Heretics",
+          "slug": "heretics"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126150,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126150/600px_gambit_2020.png",
+          "location": "RU",
+          "modified_at": "2020-10-13T17:31:03Z",
+          "name": "Gambit Youngsters",
+          "slug": "gambit-youngsters"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2020-01-12T12:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 126147
+      },
+      {
+        "score": 2,
+        "team_id": 126150
+      }
+    ],
+    "scheduled_at": "2020-01-12T11:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2020-01-12-da52ea80-af7a-49b9-8d81-714a0afde77c",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 126150,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126150/600px_gambit_2020.png",
+      "location": "RU",
+      "modified_at": "2020-10-13T17:31:03Z",
+      "name": "Gambit Youngsters",
+      "slug": "gambit-youngsters"
+    },
+    "winner_id": 126150,
+    "winner_type": "Team"
+  },
+  {
+    "begin_at": "2020-01-12T11:00:00Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2020-01-12T14:04:15Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2020-01-12T11:11:04Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T12:00:58Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12541,
+        "length": 2994,
+        "match_id": 552196,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126521,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T12:15:56Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T13:01:47Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12542,
+        "length": 2750,
+        "match_id": 552196,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 3246,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2020-01-12T13:14:29Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2020-01-12T14:04:16Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 12543,
+        "length": 2986,
+        "match_id": 552196,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 3246,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 552196,
+    "league": {
+      "id": 4570,
+      "image_url": null,
+      "modified_at": "2021-05-04T14:35:44Z",
+      "name": "DreamHack Open",
+      "slug": "cs-go-dreamhack-open",
+      "url": "https://dreamhack.com/open/"
+    },
+    "league_id": 4570,
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "match_type": "best_of",
+    "modified_at": "2020-01-12T14:04:16Z",
+    "name": "Quarterfinal 1: Heroic vs Secret",
+    "number_of_games": 3,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 3246,
+          "image_url": "https://cdn.pandascore.co/images/team/image/3246/680px_heroic_2023_allmode.png",
+          "location": "DK",
+          "modified_at": "2023-08-03T09:43:51Z",
+          "name": "Heroic",
+          "slug": "heroic"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": null,
+          "id": 126521,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126521/team_secret.png",
+          "location": null,
+          "modified_at": "2021-01-04T06:14:20Z",
+          "name": "Secret",
+          "slug": "secret"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2019-12-12T12:00:00Z",
+    "rescheduled": true,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 3246
+      },
+      {
+        "score": 1,
+        "team_id": 126521
+      }
+    ],
+    "scheduled_at": "2020-01-12T11:00:00Z",
+    "serie": {
+      "begin_at": "2020-01-11T12:00:00Z",
+      "end_at": "2020-01-26T17:30:00Z",
+      "full_name": "Leipzig 2020",
+      "id": 2388,
+      "league_id": 4570,
+      "modified_at": "2021-05-05T17:42:29Z",
+      "name": "Leipzig",
+      "season": null,
+      "slug": "cs-go-dreamhack-open-leipzig-2020",
+      "winner_id": 3249,
+      "winner_type": "Team",
+      "year": 2020
+    },
+    "serie_id": 2388,
+    "slug": "2019-12-12",
+    "status": "finished",
+    "streams_list": [],
+    "tournament": {
+      "begin_at": "2020-01-12T12:00:00Z",
+      "detailed_stats": true,
+      "end_at": "2020-01-12T18:02:00Z",
+      "has_bracket": true,
+      "id": 3496,
+      "league_id": 4570,
+      "live_supported": false,
+      "modified_at": "2022-08-09T17:17:18Z",
+      "name": "European Qualifier",
+      "prizepool": null,
+      "serie_id": 2388,
+      "slug": "cs-go-dreamhack-open-leipzig-european-closed-qualifier-2019-playoffs",
+      "tier": "b",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "tournament_id": 3496,
+    "videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "videogame_version": null,
+    "winner": {
+      "acronym": null,
+      "id": 3246,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3246/680px_heroic_2023_allmode.png",
+      "location": "DK",
+      "modified_at": "2023-08-03T09:43:51Z",
+      "name": "Heroic",
+      "slug": "heroic"
+    },
+    "winner_id": 3246,
+    "winner_type": "Team"
+  }
+]

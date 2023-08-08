@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		509526C588EA0243D192A4D9 /* Pods_Desafio_CSTV_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5CC48C03E778386B3EBC5 /* Pods_Desafio_CSTV_Fuze.framework */; };
+		5862A3A17CCE1EC109B59918 /* Pods_Desafio_CSTV_Fuze_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18477C29CDE6CC8D990E1ED /* Pods_Desafio_CSTV_Fuze_Tests.framework */; };
 		6F13637F2A7B402A00DD6717 /* Desafio_CSTV_FuzeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F13637E2A7B402A00DD6717 /* Desafio_CSTV_FuzeApp.swift */; };
 		6F1363832A7B402D00DD6717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1363822A7B402D00DD6717 /* Assets.xcassets */; };
 		6F1363862A7B402D00DD6717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1363852A7B402D00DD6717 /* Preview Assets.xcassets */; };
@@ -29,6 +30,14 @@
 		6F4FD1632A7D77510011D98C /* MatchesMockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FD1622A7D77510011D98C /* MatchesMockManager.swift */; };
 		6F57EC312A80476B0086065F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F57EC302A80476B0086065F /* CachedAsyncImage */; };
 		6F57EC332A8076D40086065F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F57EC322A8076D40086065F /* Settings.bundle */; };
+		6F86113D2A82AC5A005E404F /* matches_future.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F86113B2A82AC5A005E404F /* matches_future.json */; };
+		6F86113E2A82AC5A005E404F /* matches_past.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F86113C2A82AC5A005E404F /* matches_past.json */; };
+		6F8611432A82AC96005E404F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8611422A82AC96005E404F /* Constants.swift */; };
+		6F8611452A82AD1B005E404F /* MatchStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8611442A82AD1B005E404F /* MatchStubs.swift */; };
+		6F8611482A82AFDB005E404F /* MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8611472A82AFDB005E404F /* MatchTests.swift */; };
+		6F86114E2A82CC3E005E404F /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F86114D2A82CC3E005E404F /* teams.json */; };
+		6F8611502A82CC4F005E404F /* DetailsStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F86114F2A82CC4F005E404F /* DetailsStub.swift */; };
+		6F8611522A82D211005E404F /* DetailsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8611512A82D211005E404F /* DetailsTest.swift */; };
 		6F9D47FA2A7BFCFC0047DB2E /* MatchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47F92A7BFCFC0047DB2E /* MatchResults.swift */; };
 		6F9D47FD2A7BFD4E0047DB2E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FC2A7BFD4E0047DB2E /* HomeViewModel.swift */; };
 		6F9D48002A7BFDDE0047DB2E /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D47FF2A7BFDDE0047DB2E /* Auth.swift */; };
@@ -48,7 +57,18 @@
 		6FDAFB182A7F36A4004040B6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDAFB172A7F36A4004040B6 /* Error.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6F8611342A82AACE005E404F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1363732A7B402A00DD6717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F13637A2A7B402A00DD6717;
+			remoteInfo = "Desafio CSTV Fuze";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3FC25282B2A646B67B599E92 /* Pods-Desafio CSTV Fuze Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio CSTV Fuze Tests.release.xcconfig"; path = "Target Support Files/Pods-Desafio CSTV Fuze Tests/Pods-Desafio CSTV Fuze Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46902DC2F88D82BE9D2A78E7 /* Pods-Desafio CSTV Fuze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio CSTV Fuze.release.xcconfig"; path = "Target Support Files/Pods-Desafio CSTV Fuze/Pods-Desafio CSTV Fuze.release.xcconfig"; sourceTree = "<group>"; };
 		6F13637B2A7B402A00DD6717 /* Desafio CSTV Fuze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio CSTV Fuze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F13637E2A7B402A00DD6717 /* Desafio_CSTV_FuzeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_CSTV_FuzeApp.swift; sourceTree = "<group>"; };
@@ -72,6 +92,15 @@
 		6F4FD15F2A7D77200011D98C /* match.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = match.json; sourceTree = "<group>"; };
 		6F4FD1622A7D77510011D98C /* MatchesMockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMockManager.swift; sourceTree = "<group>"; };
 		6F57EC322A8076D40086065F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6F8611302A82AACE005E404F /* Desafio CSTV Fuze Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio CSTV Fuze Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F86113B2A82AC5A005E404F /* matches_future.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches_future.json; sourceTree = "<group>"; };
+		6F86113C2A82AC5A005E404F /* matches_past.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches_past.json; sourceTree = "<group>"; };
+		6F8611422A82AC96005E404F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F8611442A82AD1B005E404F /* MatchStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStubs.swift; sourceTree = "<group>"; };
+		6F8611472A82AFDB005E404F /* MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTests.swift; sourceTree = "<group>"; };
+		6F86114D2A82CC3E005E404F /* teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		6F86114F2A82CC4F005E404F /* DetailsStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsStub.swift; sourceTree = "<group>"; };
+		6F8611512A82D211005E404F /* DetailsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTest.swift; sourceTree = "<group>"; };
 		6F9D47F92A7BFCFC0047DB2E /* MatchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResults.swift; sourceTree = "<group>"; };
 		6F9D47FC2A7BFD4E0047DB2E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6F9D47FF2A7BFDDE0047DB2E /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -90,6 +119,8 @@
 		6FDAFB142A7F339B004040B6 /* IconConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConstants.swift; sourceTree = "<group>"; };
 		6FDAFB172A7F36A4004040B6 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		84495DCF7D78049A280D9566 /* Pods-Desafio CSTV Fuze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio CSTV Fuze.debug.xcconfig"; path = "Target Support Files/Pods-Desafio CSTV Fuze/Pods-Desafio CSTV Fuze.debug.xcconfig"; sourceTree = "<group>"; };
+		B291376CF323430366D53EF7 /* Pods-Desafio CSTV Fuze Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio CSTV Fuze Tests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio CSTV Fuze Tests/Pods-Desafio CSTV Fuze Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D18477C29CDE6CC8D990E1ED /* Pods_Desafio_CSTV_Fuze_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_CSTV_Fuze_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F5CC48C03E778386B3EBC5 /* Pods_Desafio_CSTV_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_CSTV_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +134,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F86112D2A82AACE005E404F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5862A3A17CCE1EC109B59918 /* Pods_Desafio_CSTV_Fuze_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,6 +150,7 @@
 			children = (
 				6F57EC322A8076D40086065F /* Settings.bundle */,
 				6F13637D2A7B402A00DD6717 /* Desafio CSTV Fuze */,
+				6F8611312A82AACE005E404F /* Desafio CSTV Fuze Tests */,
 				6F13637C2A7B402A00DD6717 /* Products */,
 				7555D240328256F2413F01BE /* Pods */,
 				A3FFEC1D6FDB5BB091042CFD /* Frameworks */,
@@ -121,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6F13637B2A7B402A00DD6717 /* Desafio CSTV Fuze.app */,
+				6F8611302A82AACE005E404F /* Desafio CSTV Fuze Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,6 +323,77 @@
 			path = JSONs;
 			sourceTree = "<group>";
 		};
+		6F8611312A82AACE005E404F /* Desafio CSTV Fuze Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8611492A82CB61005E404F /* DetailsTest */,
+				6F8611462A82AEAB005E404F /* MatchTest */,
+				6F8611392A82AB64005E404F /* Stubs */,
+			);
+			path = "Desafio CSTV Fuze Tests";
+			sourceTree = "<group>";
+		};
+		6F8611392A82AB64005E404F /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				6F86114B2A82CB9F005E404F /* Details */,
+				6F86114A2A82CB94005E404F /* Matches */,
+				6F8611422A82AC96005E404F /* Constants.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		6F86113A2A82AB6C005E404F /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				6F86113B2A82AC5A005E404F /* matches_future.json */,
+				6F86113C2A82AC5A005E404F /* matches_past.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		6F8611462A82AEAB005E404F /* MatchTest */ = {
+			isa = PBXGroup;
+			children = (
+				6F8611472A82AFDB005E404F /* MatchTests.swift */,
+			);
+			path = MatchTest;
+			sourceTree = "<group>";
+		};
+		6F8611492A82CB61005E404F /* DetailsTest */ = {
+			isa = PBXGroup;
+			children = (
+				6F8611512A82D211005E404F /* DetailsTest.swift */,
+			);
+			path = DetailsTest;
+			sourceTree = "<group>";
+		};
+		6F86114A2A82CB94005E404F /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				6F86113A2A82AB6C005E404F /* JSONs */,
+				6F8611442A82AD1B005E404F /* MatchStubs.swift */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		6F86114B2A82CB9F005E404F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				6F86114C2A82CBA8005E404F /* JSON */,
+				6F86114F2A82CC4F005E404F /* DetailsStub.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		6F86114C2A82CBA8005E404F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6F86114D2A82CC3E005E404F /* teams.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		6F9D47F72A7BFCEA0047DB2E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +462,8 @@
 			children = (
 				84495DCF7D78049A280D9566 /* Pods-Desafio CSTV Fuze.debug.xcconfig */,
 				46902DC2F88D82BE9D2A78E7 /* Pods-Desafio CSTV Fuze.release.xcconfig */,
+				B291376CF323430366D53EF7 /* Pods-Desafio CSTV Fuze Tests.debug.xcconfig */,
+				3FC25282B2A646B67B599E92 /* Pods-Desafio CSTV Fuze Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -358,6 +472,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F5CC48C03E778386B3EBC5 /* Pods_Desafio_CSTV_Fuze.framework */,
+				D18477C29CDE6CC8D990E1ED /* Pods_Desafio_CSTV_Fuze_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -387,6 +502,26 @@
 			productReference = 6F13637B2A7B402A00DD6717 /* Desafio CSTV Fuze.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6F86112F2A82AACE005E404F /* Desafio CSTV Fuze Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8611382A82AACE005E404F /* Build configuration list for PBXNativeTarget "Desafio CSTV Fuze Tests" */;
+			buildPhases = (
+				22FAB621237361E20E7EE3C6 /* [CP] Check Pods Manifest.lock */,
+				6F86112C2A82AACE005E404F /* Sources */,
+				6F86112D2A82AACE005E404F /* Frameworks */,
+				6F86112E2A82AACE005E404F /* Resources */,
+				A337A35B911B553EA17F3AD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F8611352A82AACE005E404F /* PBXTargetDependency */,
+			);
+			name = "Desafio CSTV Fuze Tests";
+			productName = "Desafio CSTV Fuze Tests";
+			productReference = 6F8611302A82AACE005E404F /* Desafio CSTV Fuze Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -399,6 +534,10 @@
 				TargetAttributes = {
 					6F13637A2A7B402A00DD6717 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					6F86112F2A82AACE005E404F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6F13637A2A7B402A00DD6717;
 					};
 				};
 			};
@@ -419,6 +558,7 @@
 			projectRoot = "";
 			targets = (
 				6F13637A2A7B402A00DD6717 /* Desafio CSTV Fuze */,
+				6F86112F2A82AACE005E404F /* Desafio CSTV Fuze Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -439,9 +579,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F86112E2A82AACE005E404F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F86114E2A82CC3E005E404F /* teams.json in Resources */,
+				6F86113D2A82AC5A005E404F /* matches_future.json in Resources */,
+				6F86113E2A82AC5A005E404F /* matches_past.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		22FAB621237361E20E7EE3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio CSTV Fuze Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		57B04E6424CDE55A8E397F92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,6 +651,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio CSTV Fuze/Pods-Desafio CSTV Fuze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A337A35B911B553EA17F3AD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio CSTV Fuze Tests/Pods-Desafio CSTV Fuze Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio CSTV Fuze Tests/Pods-Desafio CSTV Fuze Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio CSTV Fuze Tests/Pods-Desafio CSTV Fuze Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,7 +709,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F86112C2A82AACE005E404F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8611502A82CC4F005E404F /* DetailsStub.swift in Sources */,
+				6F8611452A82AD1B005E404F /* MatchStubs.swift in Sources */,
+				6F8611432A82AC96005E404F /* Constants.swift in Sources */,
+				6F8611522A82D211005E404F /* DetailsTest.swift in Sources */,
+				6F8611482A82AFDB005E404F /* MatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F8611352A82AACE005E404F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F13637A2A7B402A00DD6717 /* Desafio CSTV Fuze */;
+			targetProxy = 6F8611342A82AACE005E404F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6F1363872A7B402D00DD6717 /* Debug */ = {
@@ -706,6 +915,44 @@
 			};
 			name = Release;
 		};
+		6F8611362A82AACE005E404F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B291376CF323430366D53EF7 /* Pods-Desafio CSTV Fuze Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalles.teste.Desafio-CSTV-Fuze-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio CSTV Fuze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio CSTV Fuze";
+			};
+			name = Debug;
+		};
+		6F8611372A82AACE005E404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC25282B2A646B67B599E92 /* Pods-Desafio CSTV Fuze Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalles.teste.Desafio-CSTV-Fuze-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio CSTV Fuze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio CSTV Fuze";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -723,6 +970,15 @@
 			buildConfigurations = (
 				6F13638A2A7B402D00DD6717 /* Debug */,
 				6F13638B2A7B402D00DD6717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8611382A82AACE005E404F /* Build configuration list for PBXNativeTarget "Desafio CSTV Fuze Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8611362A82AACE005E404F /* Debug */,
+				6F8611372A82AACE005E404F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

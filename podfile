@@ -11,10 +11,10 @@ target 'Desafio CSTV Fuze' do
     common_pods
 end
 
-# target 'Desafio CSTV Fuze Tests' do
-#     common_pods
-#     pod 'OHHTTPStubs/Swift'
-# end
+target 'Desafio CSTV Fuze Tests' do
+    common_pods
+    pod 'OHHTTPStubs/Swift'
+end
 
 post_install do |installer|
     installer.generated_projects.each do |project|

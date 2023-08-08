@@ -1,0 +1,83 @@
+[
+  {
+    "acronym": null,
+    "current_videogame": {
+      "id": 3,
+      "name": "CS:GO",
+      "slug": "cs-go"
+    },
+    "id": 131871,
+    "image_url": "https://cdn.pandascore.co/images/team/image/131871/600px_ikla_allmode.png",
+    "location": "UA",
+    "modified_at": "2023-08-06T09:07:43Z",
+    "name": "IKLA",
+    "players": [
+      {
+        "age": 27,
+        "birthday": "1995-10-05",
+        "first_name": "William",
+        "id": 17660,
+        "image_url": "https://cdn.pandascore.co/images/player/image/17660/900px_draken__william_sundin__dhs19.png",
+        "last_name": "Sundin",
+        "modified_at": "2023-08-06T09:07:42Z",
+        "name": "draken",
+        "nationality": "SE",
+        "role": null,
+        "slug": "draken"
+      },
+      {
+        "age": 26,
+        "birthday": "1996-12-29",
+        "first_name": "Michał",
+        "id": 17789,
+        "image_url": "https://cdn.pandascore.co/images/player/image/17789/michu_dream_hack_open_atlanta_2019.png",
+        "last_name": "Müller",
+        "modified_at": "2023-08-06T09:07:43Z",
+        "name": "MICHU",
+        "nationality": "PL",
+        "role": null,
+        "slug": "michu"
+      },
+      {
+        "age": 23,
+        "birthday": "1999-10-28",
+        "first_name": "Alexey",
+        "id": 24659,
+        "image_url": "https://cdn.pandascore.co/images/player/image/24659/u_5eb3cd19d4db5.png",
+        "last_name": "Topchienko",
+        "modified_at": "2023-08-06T09:07:43Z",
+        "name": "Topa",
+        "nationality": "UA",
+        "role": null,
+        "slug": "fear-c4fc2a15-4faa-4689-b803-dcb5610c4e0e"
+      },
+      {
+        "age": 19,
+        "birthday": null,
+        "first_name": "Zoran",
+        "id": 33732,
+        "image_url": null,
+        "last_name": "Markovski",
+        "modified_at": "2023-08-06T09:07:43Z",
+        "name": "xicoz",
+        "nationality": "MK",
+        "role": null,
+        "slug": "xicoz"
+      },
+      {
+        "age": 20,
+        "birthday": null,
+        "first_name": "Vladislav",
+        "id": 37607,
+        "image_url": null,
+        "last_name": "Korol",
+        "modified_at": "2023-08-06T09:07:43Z",
+        "name": "Kvem",
+        "nationality": "UA",
+        "role": null,
+        "slug": "kvem"
+      }
+    ],
+    "slug": "ikla"
+  }
+]

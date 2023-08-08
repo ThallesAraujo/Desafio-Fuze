@@ -40,13 +40,15 @@ class ViewModel{
                 self?.isLoading = false
                 self?.showError = false
                 successCompletion(response)
+                if let comp = self?.completion{
+                    comp()
+                }
             }, onError: { [weak self] error in
-                
                 self?.errorString = error.localizedDescription
                 self?.errorProcedure()
-                
                 print("Error:\(error.localizedDescription)")
             }).disposed(by: disposeBag)
+        
         
     }
     
