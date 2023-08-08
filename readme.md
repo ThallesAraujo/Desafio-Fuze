@@ -11,6 +11,7 @@
 
  ## Extras:
 
+ - Unit Testing
  - MVVM Architecture
  - Pagination
  - Reactive Programming (via RxSwift)
@@ -32,6 +33,7 @@
 
  - RxSwift & RxCocoa: Reactive programming
  - SwiftUI-Cached-Async-Image (Swift Package Manager): Allows to load images on match listing without hangings or unnecessary reloadings while scrolling the list.
+ - OHHTTPStubs: Offline testing using JSON mocks
 
 ## Sorting algorythm
 
